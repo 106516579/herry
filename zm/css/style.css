@@ -1,0 +1,160 @@
+﻿@charset "utf-8";
+/* CSS Document */
+#banner{ height:646px; background:url(../images/banner.jpg) no-repeat center;}
+.banner{ width:1180px; height:646px; position:relative;}
+#banner img{ position:absolute; top:155px; left:100px;transition: all 0.2s ease}
+#banner:hover img{ top:140px; left:95px;transition: all 0.2s ease}
+.banner a{ display:block; width:200px; height:80px; position:absolute; top:460px; left:340px;}
+
+#condition{ height:px; padding:50px 0; background:#;}
+.condition{ width:1180px; height:px;}
+.condition h2{font-size:33px; font-weight:normal; line-height:36px; text-align:center; padding-bottom:30px;}
+.condition ul{ height:260px;}
+.condition ul li{ width:240px; height:260px; border-radius:8px; background:#FFF; float:left; margin:0 20px 0 20px;}
+.condition ul li:hover{box-shadow: 2px 2px 10px #dbdbde; cursor:pointer;}
+.condition ul li p{ text-align:center; padding:40px 0 10px 0; font-size:22px; font-weight:bold;}
+.condition ul li span{ width:50px; height:2px; display:block; background:#ff0033;}
+.condition ul li img{ margin-top:40px;}
+.text{ width:100%; height:120px; padding-top:40px;}
+.text span{ font-size:16px; color:#ff0033; text-align:center; display:block;}
+.text p{ font-size:22px; text-align:center; display:block; padding:20px 0;}
+.text a{ display:block; width:290px; height:55px; line-height:55px; border-radius:40px; color:#000; text-align:center; font-size:22px; background:#fff; margin:0 auto; text-decoration:none;border:1px dotted #666;}
+.text a:hover{ background:#ff0033; text-decoration:none;transition: all 0.5s ease; color:#FFF; border:1px dotted #ff0033;}
+
+#liucheng{ padding:50px 0; background:#FFF; clear:both;}
+.liucheng{ width:1180px; height:450px;}
+.liucheng h2{font-size:33px; font-weight:normal; line-height:36px; text-align:center; padding-bottom:50px;}
+
+.help_wrap{ width:1180px; height:300px;}
+.help_step_box{ width:1180px; height:300px; overflow:hidden;  background:url(../images/line2.png) no-repeat 65px 182px; float:right;}
+.help_step_item{float:left; width:155px; height:155px; margin-left:48px; cursor:pointer; font-size:14px; text-align:center; color:#c8cbd0; position:relative; background:#f1f2f5; border-radius:50%;}
+.help_step_num{ width:27px;height:27px;}
+.help_step_set{ width:155px; height:155px; color:#eb3c12; background:#ff0033; }
+.help_step_set .help_step_num{width:27px;height:27px; background:url(../images/dot2.png) no-repeat center top; position:absolute; top:154px; left:60px;}
+.help_step_set .help_step_left{width:8px;height:55px; position:absolute;left:0;top:0;}
+.help_step_right{width:155px; padding-bottom:45px;}
+.help_step_set .help_step_right{width:155px; padding-bottom:45px;}
+
+.rt1{width:155px;height:155px;background:url(../images/fa1.png) no-repeat center 50px; color:#333;}
+.rt1 span{ display:block; padding-top:100px;}
+.help_step_set .help_step_right .rt1{width:155px;height:155px;background:#ff0033; color:#FFF;border-radius:50%;}
+.help_step_set .help_step_right .rt1 span{ display:block; padding-top:60px; font-size:22px;}
+.rt2{width:155px;height:155px;background:url(../images/fa2.png) no-repeat center 50px; color:#333;}
+.rt2 span{ display:block; padding-top:100px;}
+.help_step_set .help_step_right .rt2{width:155px;height:155px;background:#ff0033; color:#FFF;border-radius:50%;}
+.help_step_set .help_step_right .rt2 span{ display:block; padding-top:60px; font-size:22px;}
+
+.rt3{width:155px;height:155px;background:url(../images/fa3.png) no-repeat center 50px; color:#333;}
+.rt3 span{ display:block; padding-top:100px;}
+.help_step_set .help_step_right .rt3{width:155px;height:155px;background:#ff0033; color:#FFF;border-radius:50%;}
+.help_step_set .help_step_right .rt3 span{ display:block; padding-top:60px; font-size:22px;}
+
+.rt4{width:155px;height:155px;background:url(../images/fa4.png) no-repeat center 50px; color:#333;}
+.rt4 span{ display:block; padding-top:100px;}
+.help_step_set .help_step_right .rt4{width:155px;height:155px;background:#ff0033; color:#FFF;border-radius:50%;}
+.help_step_set .help_step_right .rt4 span{ display:block; padding-top:60px; font-size:22px;}
+
+.rt5{width:155px;height:155px;background:url(../images/fa5.png) no-repeat center 50px; color:#333;}
+.rt5 span{ display:block; padding-top:100px;}
+.help_step_set .help_step_right .rt5{width:155px;height:155px;background:#ff0033; color:#FFF;border-radius:50%;}
+.help_step_set .help_step_right .rt5 span{ display:block; padding-top:60px; font-size:22px;}
+
+.rt6{width:155px;height:155px;background:url(../images/fa1.png) no-repeat center 50px; color:#333;}
+.rt6 span{ display:block; padding-top:100px;}
+.help_step_set .help_step_right .rt6{width:155px;height:155px;background:#ff0033; color:#FFF;border-radius:50%;}
+.help_step_set .help_step_right .rt6 span{ display:block; padding-top:60px; font-size:22px;}
+
+.alert_btn1{ display:block; width:240px; height:50px; line-height:50px;  background:#FFF; text-align:center; font-size:20px; color:#484848; text-decoration:none; border-radius:10px; border:1px dotted #333; float:left; margin-left:20px;}
+.alert_btn1:hover{ background:#ff0033; text-decoration:none;transition: all 0.5s ease; color:#FFF; border:1px dotted #ff0033;}
+
+
+
+
+#shengfen{ padding:50px 0; clear:both;}
+.shengfen{ width:1190px; height:700px;}
+
+.map_container{width: 1190px;margin: 0 auto;height:700px;}
+.alertMess{width: 200px;height: 100px;line-height: 2em;font-size: 15px;color: #888;position: absolute;z-index: 1;bottom: 30px;left: 20px;}
+.speechHeader{text-align:center;margin-bottom:50px;}
+.map{ position:relative;width:720px; float: left;}
+.map a{ color:#5b5a5a;  font-size:14px;  text-decoration:none; cursor: default; cursor:-ms-default; }
+.map>img{	width:716px;height: 595px;	border: 0;	}
+.citybg{position:absolute;display:none; z-index:3;	 }
+.city a.active .citybg{display:block; z-index:3;	}
+.information{display: none;height: 590px;width: 420px;border: 1px solid #cccccc;float: left; background:#FFF; margin-left:10px;}
+.beijing,.shanxi,.jiangsu,.shanghai,.guangdong{overflow: auto;}
+.information h2{text-align: center;line-height: 50px;}
+.information_list ul{height:auto!important; height:80px; min-height:80px;margin: 0 auto;font-size: 14px;border-bottom: 1px solid #CCCCCC;width: 85%;}
+..information_list ul:after{content: "."; display: block; height: 0; clear: both; visibility: hidden;}
+
+.information_list ul li{ clear:both; padding:10px 0 0 0;}				
+.fl{float: left;}
+.fr{float: right;}
+
+
+/* 多个左滚动 - 图片- 公用类 */
+.effect{  zoom:1; width:1180px; height:640px; overflow:hidden; position:relative;}
+.leftLoop{ overflow:hidden;  }
+.leftLoop .hd{ overflow:hidden;  height:30px; position:absolute; bottom:0; margin-left:500px;  }
+.leftLoop .hd .prev,.leftLoop .hd .next{ display:block;  width:5px; height:9px; line-height:10px; float:right; margin-right:10px; margin-top:10px;  overflow:hidden;  
+	 cursor:pointer; background:url("images/icoLeft.gif") no-repeat;}
+.leftLoop .hd .next{ background:url("images/icoRight.gif") no-repeat;  }
+.leftLoop .hd ul{ float:right; overflow:hidden; zoom:1; margin-top:10px;  }
+.leftLoop .hd ul li{ position:relative; _display:inline; float:left;  width:15px; height:15px; overflow:hidden; background:#ccc; margin-right:15px; text-indent:-999px; cursor:pointer;
+	-webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; behavior: url(../PIE.htc);}
+.leftLoop .hd ul li.on{ background:#f00;  }
+
+.leftLoop .bd ul{ overflow:hidden; zoom:1; }
+.leftLoop .bd ul li{  text-align:center; float:left; _display:inline; overflow:hidden;  }
+
+
+#facebox {position: absolute;width: 100%;top: 0;left: 0;z-index: 100;text-align: left;}
+#facebox .popup {position: relative;}#facebox table {margin: auto;border-collapse: collapse;}
+#facebox .body {padding: 10px;background: #fff;width: 370px;}
+#facebox .loading {text-align: center;}
+#facebox .image {text-align: center;}
+#facebox img {border: 0;}
+#facebox .footer {border-top: 1px solid #DDDDDD;padding-top: 5px;margin-top: 10px;text-align: right;}
+#facebox .tl, #facebox .tr, #facebox .bl, #facebox .br {height: 10px;width: 10px;overflow: hidden;padding: 0;}
+
+
+.story{width: 1180px;margin: 0 auto;}
+.story ul{width: 272px;height: 580px;display: inline-block;text-align: center;border: 1px solid #e0e3e9;margin-right: 20px;}
+.story ul li{width: 274px;height: 332px;background: #f1f2f5; padding-top:28px;}
+
+.story ul li h2{margin-top: 10px;font-size: 20px;color: #333333;}
+.story ul li p{margin-top: 12px;font-size: 16px;color: #333333;}
+.story ul p {color: #333333;font-size: 14px; line-height: 30px;}
+.story ul p:nth-of-type(1){margin-top: 22px;}
+.story ul a{display: block; border: none; width: 136px; height: 42px; line-height:42px; margin: 0 auto; border-radius: 20px; margin-top: 30px; outline: none; background: #ffffff; font-size: 14px; border: 1px dashed #aeaeae;}
+
+.smile_thing{width: 100%; height:358px; position: relative; background:url(../images/smileThing.jpg) no-repeat center; margin-top:50px;}
+.smile_thing a{display: block; border: none; text-align:center;  width: 246px; height: 58px; line-height:58px;  background: #ff0033;  border-radius: 30px;  margin-top: 48px;  outline: none;  position: absolute; bottom: 16%;  left: 22%;  color:#ffffff;  font-size: 24px;}
+.smile_thing a:Hover{ text-decoration:none;}
+
+
+.about_tfc{width: 100%;height: 250px;}
+.teachForChina{width: 1060px;height: 224px; margin:80px auto 0 auto;}
+.teachForChina ul:nth-of-type(1){width: 376px;height: 224px;background: #f0f0f0;float: left;}	
+.teachForChina ul:nth-of-type(2){width: 640px;height: 224px;float: right;}
+.teachForChina ul li h2{font-size: 24px;color: #333333; text-align:center}
+.teachForChina ul li p{clear: both;font-size: 14px;color: #999999;line-height: 28px;}
+
+.corporation{width: 100%;height: 60px;background: #707070;}
+.corporation p{text-align: center;line-height: 60px;font-size: 16px;color: #cccccc;}
+
+.footer2{height:150px;background: #5e5e5e; padding:50px 0;}
+.footer_box{width: 1180px;   }
+.footer_box_ul1{width: 260px;height: 124px;line-height:35px; float:left;}
+.footer_box_ul1 p{font-size: 14px;color: #CCCCCC;font-family: arial;line-height: 36px;} 
+.footer_box_ul1 h2{font-size: 20px;color: #CCCCCC;}
+.img_box{width: 138px;height: 168px; float:left; margin-left:250px;}
+.footer_box3{ width:px; height:px; float:left; padding-left:200px;}
+.footer_box3 img{ float:left; margin-right:8px;}
+.footer_box3 h4{ color:#FFF; font-size:18px; display:block; clear:both; text-align:left; padding:30px 0 15px 0;}
+
+
+.city div{ cursor: pointer;}
+.city a{ cursor: pointer;}
+
+

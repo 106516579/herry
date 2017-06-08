@@ -1,0 +1,157 @@
+@charset "utf-8";
+/* 禁用iPhone中Safari的字号自动调整 */
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+/* 去除iPhone中默认的input样式  清除苹果浏览器的圆角表单*/
+input[type="submit"],
+
+input[type="reset"],
+
+input[type="button"],
+
+input{-webkit-appearance:none; resize: none;}
+/* 取消链接高亮  */
+
+/* 设置HTML5元素为块 */
+article, aside, details,figcaption,figure,footer,header,hgroup, menu,nav,section {
+display: block;
+}
+/* 图片自适应 */
+img {
+max-width: 100%;
+height: auto;
+width:auto\9; /* ie8 */
+display: block;
+-ms-interpolation-mode:bicubic;/*为了照顾ie图片缩放失真*/
+}
+/* 初始化 */
+body,div,ul,li,ol,h1,h2,h3,h4,h5,h6,input,textarea,select,p,dl,dt,dd,a,img,button,form,table,th,tr,td,tbody,article, 
+aside, details,figcaption,figure,footer,header,hgroup, menu,nav,section{margin:0; padding:0; border:none; list-style-type:none}
+body{font-family: Microsoft YaHei,Tahoma,Arial,sans-serif; color:#555; background-color:#F7F7F7;}
+em,i{font-style:normal;}
+strong{font-weight: normal;}
+.clearfix:after{content:""; display:block; visibility:hidden; height:0; clear:both;}
+.clearfix{zoom:1;}
+a{text-decoration:none; color:#969696; font-family: Microsoft YaHei,Tahoma,Arial,sans-serif;}
+a:hover{ text-decoration:none;}
+ul,ol{list-style:none;}
+h1, h2, h3, h4, h5, h6{ font-size:100%; font-family: Microsoft YaHei;}
+img{border: none;}
+.mar0 {margin:0px auto;}
+.center {text-align:center;}
+.clear {clear:both;}
+/*-------------------头部-----------------------*/
+
+body{
+	background:rgba(255,255,255,1.0);
+}
+
+
+
+
+/*------------------菜单---------------------*/
+h1 {line-height:140%; text-align:center; font-size:16px; font-family: Microsoft YaHei; padding-bottom:10px; color:#333; padding-top:14px;}
+h2 {line-height:180%; text-align:center; font-size:14px; font-family: Microsoft YaHei; padding-bottom:10px; color:#ff0033; padding-top:14px;}
+h3 {line-height:180%; text-align:center; font-size:15px; font-family: Microsoft YaHei; padding-bottom:10px; color:#333;}
+/*-----------------------------导航-----------------------*/
+header{width:100%}
+header img {width:100%}
+
+
+/*-----------------------申请人-----------------*/
+.wrap {height: 100%;overflow: hidden; background:rgba(241,242,245,1.0); display:table; width:100%;}
+.wrap img {width:100%;}
+.tabBox1 {
+	padding-top:15px;
+	font-size: 16px;
+	box-sizing: border-box;
+	width:100%;
+}
+.tabBox1 ul{ 
+	overflow:hidden; 
+}
+.tabBox1 ul li{ 
+	float:left; 
+	width: 35%;
+	text-align: center;
+	margin-left:10%;
+	-webkit-border-radius: 10px;-moz-border-radius: 10px;-o-border-radius: 10px;-ms-border-radius: 10px; padding-bottom:80px; margin-bottom:8%;
+}
+.tabBox1 ul li p {padding-top:30px;}
+.tabBox1 ul li span {width:35px; border-bottom:1.5px solid #ff0033; display:block; margin-left:35%; padding-top:6px;}
+
+.li_b1 {background:#fff url(../images/laber_1.png) center 80% no-repeat; background-size:50px 36px;}
+.li_b2 {background:#fff url(../images/laber_2.png) center 80% no-repeat; background-size:40px 47px;}
+.li_b3 {background:#fff url(../images/laber_3.png) center 80% no-repeat; background-size:41px 33px;}
+.li_b4 {background:#fff url(../images/laber_4.png) center 80% no-repeat; background-size:46px 48px;}
+
+a.laber1 { width:60%; height:44px; background:#ff0033; text-align:center; line-height:44px; color:#fff;  _display:inline; text-decoration:none; -webkit-border-radius: 100px;-moz-border-radius: 100px;-o-border-radius: 100px;-ms-border-radius: 100px; display:table; margin-left:18%;}
+a.laber2:link { width:36%; height:44px; background:#ff0033; text-align:center; line-height:44px; color:#ffffff!important; text-decoration:none; -webkit-border-radius: 6px;-moz-border-radius: 6px;-o-border-radius: 6px;-ms-border-radius: 6px; margin-left:9%; float:left; margin-bottom:28px;}
+a.laber2:visited {color:#fff;}
+a.laber2:active {color:#fff;}
+
+a.laber3 { width:36%; height:42px; background:#fff; text-align:center; line-height:42px; color:#333; text-decoration:none; -webkit-border-radius: 6px;-moz-border-radius: 6px;-o-border-radius: 6px;-ms-border-radius: 6px; margin-left:9%; float:left; margin-bottom:28px; border:1px #ccc solid;}
+.box {width:100%; height:100px; clear:both;}
+
+a.laber4 { width:50%; height:42px;  background:url(../images/icon_rightjt.png) no-repeat 24px center; text-align:center; line-height:42px; color:#fff;  _display:inline; text-decoration:none; -webkit-border-radius: 100px;-moz-border-radius: 100px;-o-border-radius: 100px;-ms-border-radius: 100px; display:table; margin-left:25%; background-size:11px 13px; border:1px solid #fff; text-indent:1em; display:table;}
+a.laber5 { width:50%; height:42px; text-align:center; line-height:42px; color:#fff;  _display:inline; text-decoration:none; -webkit-border-radius: 100px;-moz-border-radius: 100px;-o-border-radius: 100px;-ms-border-radius: 100px; display:table; margin-left:25%; background-size:11px 13px; border:1px solid #fff; display:table; margin-bottom:20px;}
+
+iframe {padding-top:20px; padding-bottom:20px;}
+
+
+
+/*---------------------视频---------------*/
+li{list-style-type :none;}
+.btn_content {
+    width:100%; background:rgba(255,255,255,1.0); display:table;
+}
+.bd_pic {
+    width:100%; position:relative; text-align:center;
+}
+.bd_pic img{
+    width:100%; overflow:hidden;
+}
+.bd_pic p {
+    width:100%; display:table; position:absolute; top:65%;
+}
+.bd_pic span {
+    width:100%; display:table; position:absolute; top:30%; font-size:1.2em; color:#fff; text-align:center;
+}
+
+.xm_teacher {width:90%; padding-bottom:20px; padding-top:20px;}
+.xm_teacher p { padding:20px; padding-top:120px; text-align:left; color:#fff; font-size:0.8em; line-height:180%;}
+.xm_teacher p span {font-size:1.4em;}
+
+
+.xm_school {width:100%; background:url(../images/img_ad3.jpg) no-repeat center top; padding-bottom:50px; background-size:100% 100%;}
+.xm_school p {font-size:1.2em; color:#fff; padding-top:60px; padding-bottom:25px;}
+
+/*----------故事列表-------*/
+.Story {width:86%; margin-top:24px;}
+.Story_l {width:28%; float:left; text-align:center;}
+.Story_r {width:68%; float:left; overflow:hidden; text-align:left; padding-top:8px; line-height:180%; font-size:1.2em;}
+.Story_r span {font-size:0.8em; line-height:140%; display:block; color:#999;}
+.Story p {text-align:left; padding-top:12px; line-height:180%; display:table; width:100%; color:#333; font-size:1em; position:relative; padding-bottom:14px;}
+.Story p em {padding-top:6px; line-height:180%; display:table; color:#ee312f; font-size:1em; width:100%; float:right; text-align:right;}
+.kuaike_b2 {background:#f3f8fc; display:table;}
+
+.ren {width:100%; border:0px;}
+.ren img {width:100%; -webkit-border-radius: 100%;-moz-border-radius: 100%;-o-border-radius: 100%;-ms-border-radius: 100%; width:70px; height:70px;}
+/*----------copyright-------*/
+.xm_ewm {width:50%; padding-top:30px; padding-bottom:18px;}
+footer {width:100%; background:#5e5e5e; display:table;}
+footer p {padding:16px;color:#fff; line-height:180%; font-size:0.8em;}
+
+
+/* 横向放置的手机和竖向放置的平板之间的分辨率 */
+@media (max-width: 767px) { 
+    .bd_text span {
+     color:#666; background:url(../images/icon_2.png) no-repeat 6px 6px; padding-left:0px; display:table;
+}
+
+}
+
+.top-bar{font-size:1em;line-height:25px;}

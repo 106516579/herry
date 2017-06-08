@@ -1,0 +1,123 @@
+/* 初始化 */
+body,div,ul,li,ol,h1,h2,h3,h4,h5,h6,input,textarea,select,p,dl,dt,dd,a,img,button,form,table,th,tr,td,tbody,article, 
+aside, details,figcaption,figure,footer,header,hgroup, menu,nav,section{margin:0; padding:0; border:none;}
+body{font-family: Microsoft YaHei,Tahoma,Arial,sans-serif; color:#555; background-color:#F7F7F7;}
+em,i{font-style:normal;}
+strong{font-weight: normal;}
+.clearfix:after{content:""; display:block; visibility:hidden; height:0; clear:both;}
+.clearfix{zoom:1;}
+a{text-decoration:none; color:#969696; font-family: Microsoft YaHei,Tahoma,Arial,sans-serif;}
+a:hover{ text-decoration:none;}
+ul,ol{list-style:none;}
+h1, h2, h3, h4, h5, h6{ font-size:100%; font-family: Microsoft YaHei;}
+img{border: none;}
+
+/*-------------------头部-----------------------*/
+
+body{
+	background: #f1f1f1;
+}
+
+.wrap{
+	height: 100%;
+	overflow: hidden;
+	margin-bottom: 112px;
+	position: relative;
+}
+
+.mar0 {margin:0px auto;}
+.clear{clear:both;}
+/*------------------菜单---------------------*/
+.top-bar {height:32px; background:#edf0f3 url(../images/img_line.png) no-repeat center 6px; width:100%; line-height:32px; text-align:center; font-size:16px;font-family: Microsoft YaHei;  display:table; padding-bottom:10px;}
+
+/*-----------------------------导航-----------------------*/
+.header{width:100%; background:url(../images/header.png) no-repeat center top; height:300px;}
+header img {width:100%}
+
+.top {width:680px; z-index:999;}
+.top_left {width:30%; float:left;}
+.top_right {width:70%; color:#fff; font-size:1em; float:right; text-align:right; padding-top:26px;}
+
+
+.top_title {width:90%; color:#333; font-size:2.4em; float:left; text-align:left; padding-top:60px; padding-left:20px;}
+
+
+
+/*-----------------------课程-----------------*/
+
+.dinBox1{
+	width:720px; background:url(../images/img_ad1.png) no-repeat center 34px; height:302px; margin:0px auto;
+	-webkit-border-left-radius: 10px; -moz-border-left-radius: 10px; border-left-radius: 10px; -webkit-border-right-radius: 10px; -moz-border-right-radius: 10px; border-right-radius: 10px;
+}
+
+
+.list {
+	width: 86%; 
+	padding-bottom:15px;
+	box-sizing: border-box;
+}
+
+.list ul{ 
+	overflow:hidden; width:100%;
+}
+.list ul li{ 
+	float:left; 
+	width: 99%;
+	text-align: left;
+	border-bottom:1px dashed #666; line-height: 180%; font-size:1.2em; color:#333; padding-left:10px; padding-top:10px; padding-bottom:10px;
+}
+.list ul li i { 
+	color:#FF0033; font-style:normal;
+}
+.list ul li span { 
+	color:#666; font-size:0.8em; display:block; word-wrap:break-word;
+}
+.list p { 
+	color:#666; font-size:1.2em; text-align:left; padding-bottom:35px; display:table; padding-top:35px; width:80%;
+}
+
+
+
+
+
+h1 {line-height:38px; text-align:center; font-size: 1.6em; font-family: Microsoft YaHei; padding-top:10px;}
+.zt01 {color:#CC3300; font-weight:bold;}
+.zt02 {font-weight:bold;}
+.zt03 { font-size:0.8em; color:#333;}
+
+.box {width:720px; height:100%; font-family: Microsoft YaHei; line-height:180%; font-size:1em; color:#666; background:#fff; display:table;}
+.box p {padding:20px 50px 20px 50px;}
+.box b {font-size:1.4em; line-height:300%;}
+.box img {width:100%; text-align:center; padding-top:12px; padding-bottom:12px;}
+/*---------------------热门资讯---------------*/
+
+a.font1,a.font1:visited{text-decoration:none; color:#fff;}
+a.font1:hover,a.font1:active{text-decoration:none; color:#fff;}
+a.font2,a.font2:visited{text-decoration:none; color:#FF0033;}
+a.font2:hover,a.font2:active{text-decoration:none; color:#FF0033;}
+
+/* 横向放置的手机和竖向放置的平板之间的分辨率 */
+
+@media (max-width: 1280px) { 
+    .box {width:980px; height:100%; font-family: Microsoft YaHei; line-height:180%; font-size:2em; color:#666; background:#fff; display:table;}
+	.box img {width:100%; text-align:center; padding-top:12px; padding-bottom:12px; text-indent:0em;}
+	.top {width:940px; z-index:999;}
+	.top_left {width:30%; float:left;}
+	.top_right {width:70%; color:#fff; font-size:1em; float:right; text-align:right; padding-top:26px;}
+	
+	.top_title {width:90%; color:#333; font-size:2.4em; float:left; text-align:left; padding-top:60px; padding-left:20px;}
+	.dinBox1{
+		width:980px; background:url(../images/img_ad1.png) no-repeat center 34px; height:302px; margin:0px auto;
+		-webkit-border-left-radius: 10px; -moz-border-left-radius: 10px; border-left-radius: 10px; -webkit-border-right-radius: 10px; -moz-border-right-radius: 10px; border-right-radius: 10px;
+	}
+	.copyright{text-align:center; font-size:1.5em; line-height:180%; color:#333; padding-top:34px; padding-bottom:24px;}
+	.list ul li{ 
+	float:left; 
+	width: 100%;
+	text-align: left;
+	border-bottom:1px dashed #666; line-height: 220%; font-size:1.2em; color:#333; padding-left:10px; padding-top:14px; padding-bottom:14px;
+}
+}
+
+
+.copyright{text-align:center; font-size:1.1em; line-height:180%; color:#333; padding-top:34px; padding-bottom:24px;}
