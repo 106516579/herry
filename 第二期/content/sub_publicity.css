@@ -1,0 +1,286 @@
+
+/*main css*/
+.sub_pub {
+    overflow:hidden; overflow:hidden; display:table; min-width:1180px;
+}
+.entity { background:url(../images/pic_032.jpg) no-repeat 0px 0px; display:table; height:693px; width:100%; overflow:hidden;}
+.publicity {width:1180px; padding-top:40px; margin-bottom:40px; display:table;}
+.publicity_left {width:574px; float:left;}
+.publicity_right {width:540px; float:right;}
+.publicity_right img {margin-top:60px;}
+
+.pub_content {font-size:14px; color:#666; line-height:28px; margin-top:14px; margin-bottom:40px;}
+.pub_content p {font-size:24px; color:#666; line-height:34px; color:#000; background:url(../images/icon_line2.png) no-repeat 0px 5px; text-indent:1.0em; border-bottom:1px dotted #000; padding-bottom:12px; margin-bottom:14px;}
+.pub_content_padd {padding-top:60px;}
+
+
+.container {width:1180px;}
+.container ul{
+    width:1180px; float:left; margin-top:40px; display:table; margin-bottom:40px;
+}
+.container li{
+    float:left; text-align:left; overflow:hidden; height:480px; width:360px; margin-left:50px;
+}
+.container li:first-child {
+     margin-left:0px;
+}
+
+#main .section3 .s3-a {
+	z-index: 2;
+	display: block;
+	overflow: hidden;
+	width: 360px;
+	height: 230px;
+
+}
+
+#main .section3 .s3-a span {
+	background-color: #fff
+}
+
+#main .section3 .s3-a span,#main .section3 .s3-a span i {
+	display: block;
+	padding: 30px;
+	width: 360px;
+	height: 176px;
+	color: #7b7b7b;
+	font-size: 14px;
+	line-height: 25px
+}
+
+#main .section3 .s3-a span:first-child,#main .section3 .s3-a span:first-child i {
+	padding: 0;
+	height: 230px
+}
+
+#main .section3 .s3-a .i-bg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	background-color: #000;
+	opacity: 0;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+	filter: alpha(opacity=0);
+	-ms-transition: all .3s ease
+}
+
+#main .section3 .s3-a,#main .section3 .s3-a span:first-child {
+	position: relative;
+	background-position: 50% 0;
+	background-size: cover;
+	background-repeat: no-repeat
+}
+
+#main .section3 .s3-a1 span:first-child {
+	background-image: url(../images/pic_p01.jpg)
+}
+
+#main .section3 .s3-a2 span:first-child {
+	background-image: url(../images/pic_p02.jpg)
+}
+
+#main .section3 .s3-a3 span:first-child {
+	background-image: url(../images/pic_p03.jpg)
+}
+
+#main .section3 .s3-a1 span:first-child i:first-child {
+	position: relative;
+	z-index: 3;
+	background: url(../images/pic_pb1.png) no-repeat 50% center;
+}
+
+#main .section3 .s3-a2 span:first-child i:first-child {
+	position: relative;
+	z-index: 3;
+	background: url(../images/pic_pb2.png) no-repeat 50% center;
+}
+
+#main .section3 .s3-a3 span:first-child i:first-child {
+	position: relative;
+	z-index: 3;
+	background: url(../images/pic_pb3.png) no-repeat 50% center;
+}
+#main .section3 .s3-a:hover>span:first-child .i-bg {
+	opacity: .5;
+	filter: alpha(opacity=50)
+}
+
+
+.course_content {
+    width:358px; display:table; border: 1px dotted #d4d4d4; border-top:none;
+}
+.course_content ul{
+    width:320px; float:left; margin:18px 0px 22px 20px;
+}
+.course_content li{
+    float:left; text-align:left; font-size:14px; overflow:hidden; line-height:28px; height:28px; color:#666666; overflow:hidden; margin-left:0px!important; width:auto;
+}
+
+.course_content a,.course_content a:visited{text-decoration:none; color:#666666;font-family:"Microsoft YaHei";}
+.course_content a:hover,.course_content a:active{text-decoration:underline; color:#666666;font-family:"Microsoft YaHei";}
+.li_kc {
+	width:254px!important; float:left; overflow:hidden;
+}
+.li_sj {
+	width:46px; padding-left:20px; float:right;
+}
+.course_content ul>p {
+    margin-left:35%!important; padding-top:14px!important; width:100%; display:table; text-align:center!important; color:#fff;
+}
+
+A.font_pub:link {
+	 width:90px; height:32px; text-align:center; line-height:32px; color:#ffffff;  float:left; _display:inline; text-decoration:none;  font-size:14px;font-family:"Microsoft YaHei"; background:#454545; 
+}
+A.font_pub:visited {
+	  text-decoration:none; color:#ffffff;
+}
+A.font_pub:active {
+	 width:90px; height:32px; background:#ED302F; text-align:center; line-height:32px; color:#fff;  float:left; _display:inline; text-decoration:none; font-size:14px; -webkit-transition:all .2s ease; -moz-transition:all .2s ease; -o-transition:all .2s ease; transition:all .2s ease;
+}
+A.font_pub:hover {
+	 width:90px; height:32px; background:#ED302F; text-align:center; line-height:32px; color:#fff;  float:left; _display:inline; text-decoration:none; font-size:14px; -webkit-transition:all .2s ease; -moz-transition:all .2s ease; -o-transition:all .2s ease; transition:all .2s ease;
+}
+/* Menu style */
+.donation {width:100%; background:url(../images/pic_035.jpg) no-repeat center 0px; height:466px; display:table;}
+.donation p {
+    width:100%; text-align:center; padding-top:50px; padding-bottom:38px; text-align:center;
+}
+
+#timeline{width:1180px; overflow:hidden; position:relative; background:url(../images/pic_line2.jpg) no-repeat center 94px;}
+#dates{width:1100px!important; overflow:hidden; margin-top:20px;}
+#dates li{float:left; width:235px; font-size:18px; text-align:center!important; margin-left: 40px;}
+#dates li span {display:block; font-size:14px;}
+#dates li p {display:block; -webkit-border-radius: 100px;-moz-border-radius: 100px;-o-border-radius: 100px;-ms-border-radius: 100px; width:14px; height:14px!important; padding:0px!important; font-size:30px; width:208px; margin:9px 0px 0 6.5%;}
+#dates a {color:#666;width:235px; height:90px; display:block; text-decoration:none;font-family:"Microsoft YaHei";}
+#dates .selected{font-size:18px; text-decoration:none;font-family:"Microsoft YaHei"; color:#ED302F;}
+
+#issues{width:1180px; overflow:hidden;}
+#issues li{width:1180px; list-style:none; float:left; text-align:center;}
+
+#next,#prev {position:absolute; top:30px;width:70px;height:70px; overflow:hidden;}
+#next{right:50%;margin-right:-620px;}
+#prev{left:50%;margin-left:-590px;}
+#next.disabled,#prev.disabled{opacity:1.0;}
+
+A.font_lefta1:link {
+	 width:30px; height:20px; text-align:center; text-decoration:none; background:url(../images/pic_left_a1.png) no-repeat 0px 0px;
+}
+A.font_lefta1:visited {
+	  text-decoration:none;
+}
+A.font_lefta1:active {
+	 width:30px; height:20px; text-decoration:none; background:url(../images/pic_left_a2.png) no-repeat 0px 0px;-webkit-transition:all .2s ease; -moz-transition:all .2s ease; -o-transition:all .2s ease; transition:all .2s ease;
+}
+A.font_lefta1:hover {
+	 width:30px; height:20px; text-decoration:none; background:url(../images/pic_left_a2.png) no-repeat 0px 0px;-webkit-transition:all .2s ease; -moz-transition:all .2s ease; -o-transition:all .2s ease; transition:all .2s ease
+}
+
+A.font_lefta2:link {
+	 width:30px; height:20px; text-align:center; text-decoration:none; background:url(../images/pic_left_b1.png) no-repeat 0px 0px;
+}
+A.font_lefta2:visited {
+	  text-decoration:none;
+}
+A.font_lefta2:active {
+	 width:30px; height:20px; text-decoration:none; background:url(../images/pic_left_b2.png) no-repeat 0px 0px;-webkit-transition:all .2s ease; -moz-transition:all .2s ease; -o-transition:all .2s ease; transition:all .2s ease;
+}
+A.font_lefta2:hover {
+	 width:30px; height:20px; text-decoration:none; background:url(../images/pic_left_b2.png) no-repeat 0px 0px;-webkit-transition:all .2s ease; -moz-transition:all .2s ease; -o-transition:all .2s ease; transition:all .2s ease
+}
+.b-select-date {width:1180px; overflow:hidden; height:220px;}
+.b-select-date ul {width:1180px;}
+.b-select-date li {float:left; width:172px!important; margin-top:2%; height:54px; margin-left:20px; font-size:16px; opacity: 1!important; filter: alpha(opacity=1)!important;}
+.b-select-date li a{ width:100%; height:54px; background:#fff; text-align:center; line-height:54px; color:#535353;  float:left; _display:inline; text-decoration:none; border:2px solid #ddd; list-style:none;font-family:"Microsoft YaHei";}
+.b-select-date li a:hover{ color:#fff; text-decoration:none; background:#ED302F; border:2px solid #ED302F; line-height:54px;font-family:"Microsoft YaHei";}
+.b-select-date li a.on,.b-select-price li a.on{ border:2px solid #df0001; width:100%; height:54px; text-decoration:none;}
+.b-select-date li a.on:hover{ color:#fff; text-decoration:none; background:#32b16c;}
+
+
+/* register */
+.register {width:100%; }
+.register p {
+    width:100%; text-align:center; padding-top:50px; padding-bottom:38px; text-align:center;
+}
+.register_box {
+    width:1180px;
+}
+.register_box img {
+    margin-left:90px; border:1px solid #e6e6e6; padding:30px 32px 30px 32px;
+}
+
+.register_list {
+    width:1180px; margin-bottom:40px; display:table; margin-top:30px;
+}
+.register_list>p {
+    margin-left:90px; border-top:1px dotted #e6e6e6;border-bottom:1px dotted #e6e6e6; width:235px; line-height:58px; padding:0px!important; float:left; font-size:20px;}
+
+@-webkit-keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+    -ms-transform: translateY(20px);
+    transform: translateY(20px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
+
+@-webkit-keyframes fadeInUpBig {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(2000px);
+    transform: translateY(2000px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+A.font_registration:link {
+	 text-decoration:none; color:#666;font-family:"Microsoft YaHei";
+}
+A.font_registration:visited {
+	 text-decoration:none; color:#666;font-family:"Microsoft YaHei";
+}
+A.font_registration:active {
+	 color:#ED302F;text-decoration:none;font-family:"Microsoft YaHei";
+}
+A.font_registration:hover {
+	 color:#ED302F;text-decoration:none;font-family:"Microsoft YaHei";
+}
+
+
+
+
+
+
+

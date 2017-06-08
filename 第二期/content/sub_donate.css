@@ -1,0 +1,192 @@
+﻿.donatopban{height:368px;clear:both;margin: auto;background: #3d3b31 url(../images/topbg.jpg) no-repeat center center;overflow: hidden;position: relative;min-width: 1180px;}
+.donatopcont{position: absolute;top:0;left:0;width:100%;height:100%;z-index: 11;}
+.donatopcont .imgo{clear:both;margin: auto;p adding-top:126px;overflow: hidden; font-size:54px; line-height:180%; color:#fff; padding-top:70px;}
+.donatxto{color:#fff;line-height: 180%;width:730px;text-align: center;overflow: hidden;padding-bottom: 40px;font-size:14px;}
+.donatopcont img,.donatopban div,.donatopban a{text-align: center;margin: auto;display: block;border:0;}
+.donatopcont a:link,.donatopban a:visited{font-family:microsoft yahei;color:#ffffff;background: #ed302f;width:222px;height:52px;border-radius: 35px;text-decoration: none;font-size:24px;line-height: 52px;font-weight: normal;}
+.donatopcont a:hover{color:#ffffff;background: #d91313;text-decoration: none;}
+.donatopbg{position: absolute;top:0;left:0;width:100%;height:100%;opacity: 1.0;z-index: 10; overflow:hidden;}
+
+
+.donatito{clear:both;margin: auto;overflow: hidden;text-align: center; padding-top:60px;}
+.donatito img{clear:both;margin: auto;border:0;}
+
+.donablock1{background: #ffffff;clear:both;margin: auto;overflow: hidden;padding:60px 0;min-width: 1180px;}
+.donatabtito{clear:both;margin:40px auto 20px auto;width:1180px;height:153px;}
+.donatabtito a:link,.donatabtito a:visited{display:block;float:left;width:274px;height:153px;text-align:center;font-size:24px;background:url(../images/donatabtit.png) no-repeat 0 0;color:#444444;text-decoration:none;margin:0 9px 0 10px;line-height:30px;font-family:microsoft yahei;}
+.donatabtito a:hover,.donatabtito a.currentab{display:block;float:left;width:274px;height:153px;text-align:center;font-size:24px;background:url(../images/donatabtit.png) no-repeat 0 -153px;color:#ffffff;text-decoration:none;line-height:30px;}
+/*.donatabtito a.currentab:hover{background:url(../images/donatabtit.png) no-repeat 0 -306px;}*/
+.donatabtito a span{display:block;clear:both;margin:27px auto 10px auto;background:url(../images/donatab_icons.png) no-repeat}
+.donatabtito a span.icon1{width:44px;height:50px;background-position:0 0;}
+.donatabtito a:hover span.icon1, a.currentab span.icon1{background-position:-236px 0;}
+.donatabtito a span.icon2{width:50px;height:50px;background-position:-60px 0;}
+.donatabtito a:hover span.icon2, a.currentab span.icon2{background-position:-296px 0;}
+.donatabtito a span.icon3{width:25px;height:50px;background-position:-123px 0;}
+.donatabtito a:hover span.icon3, a.currentab span.icon3{background-position:-359px 0;}
+.donatabtito a span.icon4{width:47px;height:50px;background-position:-165px 0;}
+.donatabtito a:hover span.icon4, a.currentab span.icon4{background-position:-401px 0;}
+.donatabimgo{clear:both;margin:auto;width:1180px;height:368px;position:relative;}
+.donatabimgo .alinko{width:92px;height:32px;position:absolute;bottom:31px;right:41px;border:0;z-index:999;}
+.donatab_shadow{background:url(../images/banner101.jpg) no-repeat top center;clear:both;margin:auto;width:1180px;height:20px;}
+<!--捐赠方式-->
+.donablock2{clear:both; margin: auto; position: relative; min-width: 1180px; display: table;}
+.donablooo{width: 1180px;height: 440px;clear:both;margin: 35px auto 0 auto; position: relative; z-index: 100; padding-bottom:40px;}
+.donablo1{width: 350px;height: 440px;float:left; overflow: hidden;}
+.donablo2{width: 350px;height: 440px;float:left; margin-left:58px;}
+.donablo_tback1 {width: 350px; height: 124px; background: url(../images/dona_fs1.jpg) no-repeat; line-height: 124px; text-align: center; font-size: 21px; color: #fff;}
+.donablo_tback2 {width: 350px; height: 124px; background: url(../images/dona_fs2.jpg) no-repeat; line-height: 124px; text-align: center; font-size: 21px; color: #fff;}
+.donablo_tback3 {width: 350px; height: 124px; background: url(../images/dona_fs3.jpg) no-repeat; line-height: 124px; text-align: center; font-size: 21px; color: #fff;}
+.donablo_bline {width: 348px; height: 310px; float:left; border:1px solid #d2d2d2; border-top:none; background:#fff; }
+.donablo_bline p {width: 86%; display:table; font-family: "宋体"; font-size: 14px;line-height:180%; margin-top: 33px;}
+.donablo_bline p span { border-bottom:1px dotted #D4D4D4; display: table; width: 95%; padding-left: 5%; padding-top: 6px;}
+.donablo_padd1 {width:100%; text-align: center; margin-top: 33px;}
+.donablo_padd1 img { margin-bottom: 33px;}
+
+
+
+.donablo1bank{width:728px;height:126px;background: #ffffff;border:1px solid #d2d2d2;clear:both;margin: 0 auto 30px auto;}
+.donabanktit{color:#333333;font-size: 24px;background: url(../images/donabline.png) no-repeat center center;font-weight: normal;padding:35px 0;text-align: center;width:220px;float:left;margin:10px 0 0 20px;}
+.donabankline{background:url(../images/bankline.png) no-repeat left center;float:left;padding:10px 10px 10px 35px;margin:15px 0 0 50px;font-size:14px;line-height:180%;color:#333333;}
+.donablo1typo{width:728px;clear:both;overflow: hidden;}
+.donablo1type1{width:348px;height:398px;background: #ffffff;border:1px solid #d2d2d2;float:left;}
+.donablo1type1 a:link,.donablo1type1 a:visited{display:block;color:#ffffff;background: #ed302f;width:138px;height:46px;border-radius: 35px;text-decoration: none;font-size:20px;line-height: 210%;font-weight: normal;font-family:microsoft yahei;clear:both;margin:30px auto 0 auto;text-align:center;}
+.donablo1type1 a:hover{color:#ffffff;background: #d91313;text-decoration: none;}
+.donablo1type2{width:348px;height:398px;background: #ffffff;border:1px solid #d2d2d2;float:right;}
+.donabltxto{color:#333333;font-size: 24px;background: url(../images/donabline.png) no-repeat center center;font-weight: normal;padding:35px 0;text-align: center;margin: auto;width:260px;overflow: hidden;}
+
+
+
+.donablo2tit{background:url(../images/donablo2tit.png) no-repeat center top;width: 420px;height: 96px;clear: both;margin: auto;color:#ed302f;line-height: 85px;font-size:24px;font-weight: normal;text-align:center;}
+.dona_sealimg{display: block;position: absolute;bottom:45px;right:-70px;width: 161px;height:146px;z-index: 111;border:0;}
+.donacontin{font-size:14px;line-height:180%;text-align:center;}
+.donacontin img{display:block;clear:both;margin:auto;border:0;padding:15px 0;}
+.donacontri{font-size:14px;line-height:160%;text-align:left;padding:0px 35px 15px 42px;}
+.donacontri a:link,.donacontri a:visited{color:#111111;text-decoration:none;font-family:microsoft yahei;}
+.donacontri a:hover{color:#ED302F;text-decoration:none;}
+.donacotxto{clear:both;text-align:left;margin:15px auto;overflow:hidden;}
+.donacotxto b{font-weight:normal;text-align:left;display:block;width:10px;float:left;font-size:12px;}
+.donacotxto span{font-weight:normal;text-align:left;display:block;width:300px;float:right;}
+.donacontrline{background:url(../images/donacontrline.png) no-repeat left top;padding-top:36px; text-align:left;line-height:150%;margin-top:35px;clear:both;}
+.donacontrline i{display:block;clear:both;font-style:normal;font-size:12px;}
+.donacontrline b{display:block;clear:both;font-weight:normal;font-size:16px;padding-top:15px;}
+
+.donablock3{background: #ffffff;clear:both;margin: auto;overflow: hidden;min-width: 1180px;}
+
+
+.showc {
+    width:1180px; background:url(../images/article_line.png) no-repeat center top; display: table; margin-bottom:-60px;
+}
+.showc ul{
+    width:1180px; float:left;
+}
+.showc li{
+    float: left; height: 258px; position: relative; text-align: center; width: 272px; z-index: 10; border:1px solid #ebebeb; border-top:none; background:#fff; display:table; margin-bottom: 79px; margin-right: 28px;
+}
+.showc li:nth-child(4n){margin-right: 0px;}
+.showc a,.showc a:visited{text-decoration:none; color:#444444;}
+.showc a:hover,.showc a:active{text-decoration:none; color:#444444;}
+
+.article-over {
+    left: 0;
+    position: absolute;
+    top: 0;
+    background:#ED302F; -moz-opacity:0.9; left:0; width:272x; height:338px; z-index:6;
+}
+.gallery-buttons{width:272px; margin-top: 18px; margin-left:33%;}
+.showc .student .Commentnumber {color: #666666;float: left;font-size: 12px; width:190px; border-top:1px solid #ebebeb; padding-top:14px;}
+.showc .student .Commentnumber span {color: #333; font-weight:bold;}
+
+.showc_pidd1 {margin-top: 00px; margin-bottom: 40px;}
+
+.article-over p {text-align: center; padding-top: 35px;}
+
+.article_f1 {color:#fff; line-height:30px; font-size:20px!important; font-family: "Microsoft YaHei"; font-weight:100;  position:relative; padding-top: 16px;}
+.article_f2 {color:#fff; line-height:180%; font-size:12px!important; font-family: "宋体"; padding-top: 16px; width: 80%;}
+
+A.article_f3:link {
+	COLOR: #fff; TEXT-DECORATION: none; font-family:"Microsoft YaHei"; width:90px; height:36px; line-height:36px;  color:#fff; text-align:center;  background: #4A454B; display: table;
+}
+A.article_f3:visited {
+	COLOR: #fff; TEXT-DECORATION: none; font-family:"Microsoft YaHei"; width:90px; height:36px; line-height:36px;  color:#fff; text-align:center;  background: #4A454B; display: table;
+}
+A.article_f3:active {
+	COLOR: #fff; TEXT-DECORATION: none; font-family:"Microsoft YaHei" -webkit-transition:all .3s ease; -moz-transition:all .3s ease; -o-transition:all .3s ease; transition:all .3s ease; background: #565656; display: table;
+}
+A.article_f3:hover {
+	COLOR: #fff; TEXT-DECORATION: none; font-family:"Microsoft YaHei"; -webkit-transition:all .3s ease; -moz-transition:all .3s ease; -o-transition:all .3s ease; transition:all .3s ease; background: #565656; display: table;
+}
+
+A.font_donation:link {
+	COLOR: #333; TEXT-DECORATION: none; font-family:"Microsoft YaHei"; text-decoration:underline; font-size: 18px; margin-top: 45px; margin-left: 39%; display: table;
+}
+A.font_donation:visited {
+	COLOR: #333; TEXT-DECORATION: none; font-family:"Microsoft YaHei"; text-decoration:underline;
+}
+A.font_donation:active {
+	COLOR: #333; TEXT-DECORATION: none; font-family:"Microsoft YaHei"; -webkit-transition:all .3s ease; -moz-transition:all .3s ease; -o-transition:all .3s ease; transition:all .3s ease; text-decoration:none; font-size: 18px;
+}
+A.font_donation:hover {
+	COLOR: #333; TEXT-DECORATION: none; font-family:"Microsoft YaHei"; -webkit-transition:all .3s ease; -moz-transition:all .3s ease; -o-transition:all .3s ease; transition:all .3s ease; text-decoration:none; font-size: 18px;
+}
+
+A.font_don:link {
+	 width:138px; height:46px; background:#fff; text-align:center; line-height:46px; color:#fff;  float:left; _display:inline; text-decoration:none; -webkit-border-radius: 100px;-moz-border-radius: 100px;-o-border-radius: 100px;-ms-border-radius: 100px; font-size:20px; font-family:"Microsoft YaHei"; border-radius: 100px; background:#ED302F; margin-top: 30px; margin-left: 29%;
+}
+A.font_don:visited {
+	  text-decoration:none; color:#fff;
+}
+A.font_don:active {
+	 width:138px; height:46px; background:#ED302F; text-align:center; line-height:46px; color:#fff;  float:left; _display:inline; text-decoration:none; -webkit-border-radius: 100px;-moz-border-radius: 100px;-o-border-radius: 100px;-ms-border-radius: 100px; font-size:20px; -webkit-transition:all .2s ease; -moz-transition:all .2s ease; -o-transition:all .2s ease; transition:all .2s ease; border-radius: 100px;
+}
+A.font_don:hover {
+	 width:138px; height:46px; background:#ED302F; text-align:center; line-height:46px; color:#fff;  float:left; _display:inline; text-decoration:none; -webkit-border-radius: 100px;-moz-border-radius: 100px;-o-border-radius: 100px;-ms-border-radius: 100px; font-size:20px; -webkit-transition:all .2s ease; -moz-transition:all .2s ease; -o-transition:all .2s ease; transition:all .2s ease; border-radius: 100px;
+}
+.font_don1 {width:100%; text-align:center; line-height:28px; font-size:12px;}
+.font_don1 span {width:100%; text-align:center; line-height:32px; font-size:16px; display:table;}
+
+
+/* 伙伴5css */
+.md_5{width:1180px;}
+.md_5_menu{width:auto; height:33px; overflow:hidden;}
+.md_5_menu li{width:70px; height:33px; float:left; padding:0px; margin-right:45px; margin-right:30px\9;}
+.md_5_menu li a,.md_5_menu li a:visited,.md_5_menu li a:hover,.md_5_menu li a:active{display:block; height:33px; text-align:center; text-decoration:none; color:#999999; line-height:33px; font-size:16px; font-family:"Microsoft YaHei";}
+.md_5_menu li.on{ height:33px; z-index:66; position:relative;}
+.md_5_menu li.on a,.md_5_menu li.on a:visited,.md_5_menu li.on a:hover,.md_5_menu li.on a:active{color:#ED302F; line-height:33px;}
+.md_5_menu li:last-child { margin-right:0px; }
+.hd_5 {
+    width:650px; clear:both; height:38px; margin-top:40px; margin-bottom:20px; 
+}
+#bfxz5{ width:650px;height:auto;  display:table;}
+.txtcss5 {
+    width:1180px; height:auto; background:#FFFFFF; display:table;
+}
+.link_list {
+    width:1180px;
+}
+.link_list ul {
+    width:1180px; float:left;
+}
+.link_list li{
+    width:200px; float:left; margin-right:36px; margin-bottom:34px;
+}
+.link_list li:nth-child(5n){
+    margin-right:0px;
+}
+
+.scrollBox{ width:1180px; position:relative; }
+.scrollBox .piclist{ overflow:hidden; zoom:1;}
+.scrollBox .ohbox{overflow:hidden; position:relative; width:1080px; left:51px; margin-top:16px; overflow:hidden;}
+.scrollBox {position:relative;overflow:hidden;zoom:1;}
+.scrollBox .piclist li{float:left; display:inline; width:246px; margin-right:32px; height:92px; position:relative;}
+.scrollBox .piclist li:last-child {margin-right:0px; overflow:hidden;}
+.scrollBox .piclist li span{line-height:180%;display:block; text-align:center; font-size:14px; font-weight:100; padding-top:14px; font-family:"宋体"}
+.scrollBox .pageBtn span{display:block;width:16px;height:24px;position:absolute; top:50px;cursor:pointer;text-indent:-999em;overflow:hidden;}
+.scrollBox .pageBtn .prev{left:0px; background:url(../images/prev.png) no-repeat 0px 0px;}
+.scrollBox .pageBtn .prev:hover {left:0px; background:url(../images/prev_hover.png) no-repeat 0px 0px;}
+
+.scrollBox .pageBtn .next{right:0px; background:url(../images/next.png) no-repeat 0px 0px;}
+.scrollBox .pageBtn .next:hover {right:0px; background:url(../images/next_hover.png) no-repeat 0px 0px;}
+.scrollBox .pageBtn .list{overflow:hidden;zoom:1;}
+.scrollBox .pageBtn .list li{ float:left; display:none; width:15px;height:15px; cursor:pointer;margin-left:10px;line-height:10000px;overflow:hidden;}
+.scrollBox .pageBtn .list li.on{}
+.scrollBox .ohbox img {width:246px; height:92px;}
