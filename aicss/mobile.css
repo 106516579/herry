@@ -119,60 +119,38 @@ h1 {font-size: 1.8em; color: #333; line-height: 140%; margin-top: 24px; font-fam
 .news_content img {padding-bottom:14px; padding-top:14px; width:auto; max-width:100%; display:block; margin:0px auto;}
 
 .navigation{
-    height:70px;
-    width:100%;
-    position:fixed; bottom:0px;
-    z-index:9999; text-align:center;
-    background:rgba(255,255,255,0.7);
-    margin-bottom:-5px;
+	height:70px;
+	width:100%;
+	position:fixed; bottom:0px;
+	z-index:9999; text-align:center;
+	background:rgba(255,255,255,0.7);
+	margin-bottom:-5px;
 }
 A.font_baoming:link {
-    margin-top:12px; 
-    display: table; 
-    width:90%; height:44px; 
-    background:#ed4542; 
-    text-align:center; 
-    line-height:44px; 
-    color:#fff; _display:inline; 
-    text-decoration:none; 
-    font-size:1.2em;font-family:"PingFangSC-Regular"; 
-    border-radius: 5px;
+	margin-top:12px; display: table; width:90%; height:44px; background:#ed4542; text-align:center; line-height:44px; color:#fff; _display:inline; text-decoration:none; font-size:1.2em;font-family:"PingFangSC-Regular"; border-radius: 5px;
 }
 A.font_baoming:hover {
-     display: table; width:90%; height:44px; background:#ed4542; text-align:center; 
-     line-height:44px; color:#fff; _display:inline; text-decoration:none; font-size:1.2em; 
-     -webkit-transition:all .2s ease; -moz-transition:all .2s ease; 
-     -o-transition:all .2s ease; transition:all .2s ease;
+	 display: table; width:90%; height:44px; background:#ed4542; text-align:center; line-height:44px; color:#fff; _display:inline; text-decoration:none; font-size:1.2em; -webkit-transition:all .2s ease; -moz-transition:all .2s ease; -o-transition:all .2s ease; transition:all .2s ease;
 }
 A.font_baoming:active {
-     color:#fff;
+	 color:#fff;
 }
 A.font_baoming:visited {
-     color:#fff;
+	 color:#fff;
 }
 A.font_ybaoming {
-    margin-top:12px; display: table; width:25%; height:42px; background:#fff; text-align:center; 
-    line-height:42px; color:#a1a1a1; _display:inline; text-decoration:none; font-size:1.2em;
-    font-family:"PingFangSC-Regular"; border: 1px solid #e5e5e5; float: left; margin-left: 3%;
+	margin-top:12px; display: table; width:25%; height:42px; background:#fff; text-align:center; line-height:42px; color:#a1a1a1; _display:inline; text-decoration:none; font-size:1.2em;font-family:"PingFangSC-Regular"; border: 1px solid #e5e5e5; float: left; margin-left: 3%;
 }
 A.font_ybaoming_all {
-    margin-top:12px; display: table; width:90%; height:42px; background:#fff; text-align:center; 
-    line-height:42px; color:#a1a1a1; _display:inline; text-decoration:none; font-size:1.2em;
-    font-family:"PingFangSC-Regular"; border: 1px solid #e5e5e5;
+	margin-top:12px; display: table; width:90%; height:42px; background:#fff; text-align:center; line-height:42px; color:#a1a1a1; _display:inline; text-decoration:none; font-size:1.2em;font-family:"PingFangSC-Regular"; border: 1px solid #e5e5e5;
 }
 
 A.font_cancel {
-    margin-top:12px; display: table; width:66%; height:44px; background:#f7b55e; text-align:center; 
-    line-height:44px; color:#fff; _display:inline; text-decoration:none; font-size:1.2em;
-    font-family:"PingFangSC-Regular"; float: left; margin-left: 2%;
+	margin-top:12px; display: table; width:66%; height:44px; background:#f7b55e; text-align:center; line-height:44px; color:#fff; _display:inline; text-decoration:none; font-size:1.2em;font-family:"PingFangSC-Regular"; float: left; margin-left: 2%;
 }
 A.font_cancel:hover {
-     display: table; width:66%; height:44px; background:#f7b55e; text-align:center; 
-     line-height:44px; color:#fff; _display:inline; text-decoration:none; font-size:1.2em; 
-     -webkit-transition:all .2s ease; -moz-transition:all .2s ease; 
-     -o-transition:all .2s ease; transition:all .2s ease;
+	 display: table; width:66%; height:44px; background:#f7b55e; text-align:center; line-height:44px; color:#fff; _display:inline; text-decoration:none; font-size:1.2em; -webkit-transition:all .2s ease; -moz-transition:all .2s ease; -o-transition:all .2s ease; transition:all .2s ease;
 }
-
 .navigation .baoming {
     margin-top:12px; display: table; width:90%; height:44px; background:#ed4542; 
     text-align:center; line-height:44px; color:#fff; _display:inline; text-decoration:none; font-size:1.2em;
@@ -213,7 +191,6 @@ A.font_cancel:hover {
      -webkit-transition:all .2s ease; -moz-transition:all .2s ease; 
      -o-transition:all .2s ease; transition:all .2s ease;
 }
-
 .radius5 {-webkit-border-radius: 5px;-moz-border-radius: 5px;-o-border-radius: 5px;-ms-border-radius: 5px; border-radius: 5px;}
 .search_error {width: 80%; margin-top: 25%; text-align: center; font-family: "PingFangSC-Regular"; font-size: 1.2em; line-height: 360%;}
 .search_error img {width: 50%; margin:0px auto;}
@@ -244,22 +221,22 @@ A.font_cancel:hover {
 
 
 A.font_verify:link {
-    margin-top:12px; display: table; width:90%; height:44px; background:#f7b55e; text-align:center; line-height:44px; color:#fff; _display:inline; text-decoration:none; font-size:1.2em;font-family:"PingFangSC-Regular"; border-radius: 5px;
+	margin-top:12px; display: table; width:90%; height:44px; background:#f7b55e; text-align:center; line-height:44px; color:#fff; _display:inline; text-decoration:none; font-size:1.2em;font-family:"PingFangSC-Regular"; border-radius: 5px;
 }
 A.font_verify:hover {
-     display: table; width:90%; height:44px; background:#f7b55e; text-align:center; line-height:44px; color:#fff; _display:inline; text-decoration:none; font-size:1.2em; -webkit-transition:all .2s ease; -moz-transition:all .2s ease; -o-transition:all .2s ease; transition:all .2s ease;
+	 display: table; width:90%; height:44px; background:#f7b55e; text-align:center; line-height:44px; color:#fff; _display:inline; text-decoration:none; font-size:1.2em; -webkit-transition:all .2s ease; -moz-transition:all .2s ease; -o-transition:all .2s ease; transition:all .2s ease;
 }
 A.font_apply:link {
-    margin-top:12px; display: table; width:90%; height:44px; background:#f2725e; text-align:center; line-height:44px; color:#fff; _display:inline; text-decoration:none; font-size:1.2em;font-family:"PingFangSC-Regular"; border-radius: 5px;
+	margin-top:12px; display: table; width:90%; height:44px; background:#f2725e; text-align:center; line-height:44px; color:#fff; _display:inline; text-decoration:none; font-size:1.2em;font-family:"PingFangSC-Regular"; border-radius: 5px;
 }
 A.font_apply:hover {
-     display: table; width:90%; height:44px; background:#f2725e; text-align:center; line-height:44px; color:#fff; _display:inline; text-decoration:none; font-size:1.2em; -webkit-transition:all .2s ease; -moz-transition:all .2s ease; -o-transition:all .2s ease; transition:all .2s ease;
+	 display: table; width:90%; height:44px; background:#f2725e; text-align:center; line-height:44px; color:#fff; _display:inline; text-decoration:none; font-size:1.2em; -webkit-transition:all .2s ease; -moz-transition:all .2s ease; -o-transition:all .2s ease; transition:all .2s ease;
 }
 A.font_already:link {
-    margin-top:12px; display: table; width:90%; height:42px; background:#fff; text-align:center; line-height:42px; color:#999; _display:inline; text-decoration:none; font-size:1.2em;font-family:"PingFangSC-Regular"; border-radius: 5px; border:1px solid #e5e5e5;
+	margin-top:12px; display: table; width:90%; height:42px; background:#fff; text-align:center; line-height:42px; color:#999; _display:inline; text-decoration:none; font-size:1.2em;font-family:"PingFangSC-Regular"; border-radius: 5px; border:1px solid #e5e5e5;
 }
 A.font_already:hover {
-     display: table; width:90%; height:42px; background:#fff; text-align:center; line-height:42px; color:#999; _display:inline; text-decoration:none; font-size:1.2em;  border:1px solid #e5e5e5;
+	 display: table; width:90%; height:42px; background:#fff; text-align:center; line-height:42px; color:#999; _display:inline; text-decoration:none; font-size:1.2em;  border:1px solid #e5e5e5;
 }
 .bind_area {width:90%;}
 .input_xy {line-height: 42px; font-family: "PingFangSC-Regular"; border:1px solid #dddddd; border-radius: 5px; width: 100%; margin-top: 30px; text-indent: 0.8em; color: #999;}
@@ -268,19 +245,24 @@ A.font_already:hover {
 .sub_note {color: #f7b55e; line-height: 180%; font-family: "PingFangSC-Regular"; padding-top: 12px; width: 90%; font-size: 1.0em;}
 .input_cp {/*line-height: 42px; */font-family: "PingFangSC-Regular"; border:0px; width: 96%; text-indent: 0.8em; color: #999;}
 
-a.btn-default { width:auto; height:22px; background:#fff; text-align:center; line-height:22px; color:#535353;  float:left; _display:inline; text-decoration:none; display:table; border:1px solid #e5e5e5; padding-left:10px; padding-right:10px; min-width: 30px;}
-a.btn-default:hover{ color:#ed4542; text-decoration:none; display:table; background:#e5e5e5;}
-.btn_left {border-top-left-radius:5px; border-bottom-left-radius:5px;}
-.btn_right {border-top-right-radius:5px; border-bottom-right-radius:5px;}
+.btn-default {cursor:hand; width:16%; height:22px; background:#fff; text-align:center; line-height:22px; color:#535353;  float:left; _display:inline; text-decoration:none; display:table; border:1px solid #e5e5e5; padding-left:10px; padding-right:10px; min-width: 30px;}
+.btn-default:hover{ color:#ed4542; text-decoration:none; display:table; background:#e5e5e5;}
+.btn_left {border-top-left-radius:5px; border-bottom-left-radius:5px; float: left;}
+.btn_right {border-top-right-radius:5px; border-bottom-right-radius:5px; float: left;}
 .btn_1 {margin-left:-1px;}
 
-a.btn-default.on{color:#ed4542; text-decoration:none; display:table; background:#e5e5e5;}
+.btn-default.on{color:#ed4542; text-decoration:none; display:table; background:#e5e5e5;}
 
 .job_list_p { padding-top: 14px;}
 .job_list {width:90%; padding:5%; line-height: 180%; border-bottom: 1px solid #e5e5e5; background:rgba(255,255,255,1.0); margin-bottom: 14px;}
 .job_company {width:100%; font-size: 1.2em; color: #000; position: relative;}
 .job_company p {position: absolute; right: 3%; top: 12%; font-family: Euphemia; color: #d7d7d7;}
 
+
+@media (min-width: 320px) { 
+.mechanism_h div {width:50%!important; overflow: hidden;}
+.mechanism_t div {width:50%!important; overflow: hidden;}
+}
 
 @media (max-width: 480px) { 
 .campus { padding-left:12px;}
@@ -309,18 +291,20 @@ a.btn-default.on{color:#ed4542; text-decoration:none; display:table; background:
 .mechanism { padding-left:12px;}
 .mechanism dl {width:96%; overflow:hidden; font-family: "Microsoft YaHei"!important; position:relative; margin-top:18px; height:100%; border-bottom:1px solid #e5e5e5;}
 .mechanism dt {float:left; width:13%;}
-.mechanism dt img{width:70px;}
-.mechanism dd {width:82%; float:right; text-align:left; color:#545454; line-height:20px; height:auto; padding-bottom: 14px;}
+.mechanism dt img{width:70px; margin-bottom:15px;}
+.mechanism dd {width:84%; float:right; text-align:left; color:#545454; line-height:20px; height:auto; padding-bottom: 14px;}
 .mechanism_t {height:34px!important; line-height:50px; color:#38495E; margin-bottom:18px ;font-family:"Microsoft YaHei"; font-size:16px; font-style:normal; position:relative;}
+
+.mechanism_t div {height:34px!important; overflow:hidden; width:55%; float:left}
+
 .mechanism_t p {position: absolute; right: 0px; color: #999; font-size: 0.8em; top: 0px;}
-.mechanism_t cite {position: absolute; width: auto; line-height: 22px; height: 22px; text-align: center!important; font-size: 0.9em; padding-left: 14px; padding-left: 10px; border-radius:25px; text-indent: 0em; padding-right: 10px; border:1px solid #cacaca; color: #cacaca!important; font-style: normal; margin-top: 14px; margin-left:14px; font-family: "PingFangSC-Regular";}
+.mechanism_t cite {position: absolute; width: auto; line-height: 22px; height: 22px; text-align: center!important; font-size: 0.9em; padding-left: 10px; border-radius:25px; text-indent: 0em; padding-right: 10px; border:1px solid #cacaca; color: #cacaca!important; font-style: normal; margin-top: 14px; margin-left:8px; font-family: "PingFangSC-Regular";}
 
 .mechanism_h {line-height:25px; color:#38495E; font-family:"Microsoft YaHei"; font-size:16px; font-style:normal; position:relative;}
 .mechanism_h p {position: absolute; right: 0px; color: #999; font-size: 0.8em; top: 0px;}
-.mechanism_h cite {position: absolute; width: auto; line-height: 22px; height: 22px; text-align: center!important; font-size: 0.9em; padding-left: 14px; padding-left: 10px; border-radius:25px; text-indent: 0em; padding-right: 10px; border:1px solid #cacaca; color: #cacaca!important; font-style: normal; margin-left:14px; font-family: "PingFangSC-Regular";}
-.mechanism_h span {display:block; line-height:25px!important; font-size:0.8em; color:#999999;}
-
-
+.mechanism_h div {height:30px!important; overflow:hidden; width:55%; float:left}
+.mechanism_h cite {position: absolute; width: auto; line-height: 22px; height: 22px; text-align: center!important; font-size: 0.9em; padding-left: 10px; border-radius:25px; text-indent: 0em; padding-right: 10px; border:1px solid #cacaca; color: #cacaca!important; font-style: normal; margin-left:8px; font-family: "PingFangSC-Regular";}
+.mechanism_h span {display:block!important; line-height:25px!important; font-size:0.8em; color:#999999; position:absolute; left:0px; top:25px;}
 
 @media (min-width: 640px) {
 .campus { padding-left:20px;}
@@ -344,9 +328,10 @@ a.btn-default.on{color:#ed4542; text-decoration:none; display:table; background:
 
 .mechanism_h {padding-top:10px;}
 .mechanism_h p {top: 10px;}
+.mechanism_h span {display:block!important; line-height:25px!important; font-size:0.8em; color:#999999; position:absolute; left:0px; top:36px;}
 }
 
-.head0525{ height:135px; background:#ef584e; width:90%; padding:0 5%; color:#FFF; font-size:14px; font-family: Euphemia;}
+.head0525{ height:135px; width:90%; padding:0 5%; color:#FFF; font-size:14px; font-family: Euphemia; background: linear-gradient(90deg,#ee4f48, #f2725e); background: -moz-linear-gradient(90deg,#ee4f48, #f2725e);}
 .head0525_l{ width:80%; height:80px; float:left;}
 .head0525_l img{ width:80px; height:80px; border-radius:50%; margin-top:30px; float:left;}
 .head0525_l h3{ margin-top:45px; padding-left:90px; display:block; font-weight:bold;}
@@ -358,7 +343,7 @@ a.btn-default.on{color:#ed4542; text-decoration:none; display:table; background:
 .zhiwei { width:90%; height:70px; font-family: Euphemia; display:block; border-bottom:1px solid #e5e5e5; margin:0 auto; background:url(../images/icon_manager.png) no-repeat left; background-size:50px; position:relative;}
 .zhiwei {border-bottom:1px solid #e5e5e5;}
 .zhiwei:last-child {border-bottom:none;}
-.h50525{ width:200px; overflow:hidden; display:block; float:left; font-size:16px; padding:25px 0 0 60px; color:#000;}
+.h50525{ width:200px; overflow:hidden; display:block; float:left; font-size:16px; padding:25px 0 0 60px; color:#000; }
 .time0525{ width:50px; color:#666; display:block; font-size:16px; text-align:right; position:absolute; top:25px; right:0;}
 
 .zhiwei_2{ width:90%; height:70px; font-family: Euphemia; display:block; border-bottom:1px solid #e5e5e5; margin:0 auto; background:url(../images/icon_school.png) no-repeat left; background-size:50px; position:relative;}
@@ -373,3 +358,4 @@ a.btn-default.on{color:#ed4542; text-decoration:none; display:table; background:
 .h50525_3{ width:200px; overflow:hidden; display:block; float:left; font-size:16px; padding:15px 0 0 60px; color:#000;}
 .span0525_3{ display:block; float:left;padding:5px 0 0 60px; color: #999;}
 .time0525_3{ width:50px; color:#666; display:block; font-size:16px; text-align:right; position:absolute; bottom:12px; right:0;}
+.baoming {margin-top:12px; display: table; width:90%; height:44px; background:#ed4542; text-align:center; line-height:44px; color:#fff; _display:inline; text-decoration:none; font-size:1.2em;font-family:"PingFangSC-Regular"; border-radius: 5px;}
