@@ -1,0 +1,142 @@
+/*---------------------------------------------------------------------------------------
+ index
+ * */
+/* banner */
+.banenr{ width:100%; overflow:hidden;position:relative; margin-top: -49px;}
+.banenr img{ width:100%;}
+.banenr ul li{width: 100%; position: relative;}
+.banenr>ol{height:20px;position: relative;z-index:10;width:35%; left:30%; bottom:10px; margin-top:-19px;text-align:right;padding-right:20px;}
+.banenr>ol>li{display:inline-block;margin:5px;width:11px;height:11px; background-color: #fff; border: 1px solid #fff; border-radius: 50%;}
+.banenr>ol>li.on{ width: 11px; height: 11px; background-color: #2a51cc; border: 1px solid #2a51cc;}
+
+/*about*/
+.about{width: 100%; padding: 0 8.55%; background-color: #fff;}
+.about-nav{width: 46.8%; text-align: center; position: relative; margin: 7% auto;}
+.about-nav samp{width: 100%; display: block; height: 3em; border: 2px solid #2a51cc; position: absolute; left: 0; top: .8em;}
+.about-nav .bt{background-color: #fff; color: #2a51cc; font-family: "微软雅黑"; font-weight: bold; font-size: 1.2em; padding: 0 4%; position: relative;}
+.about-nav .fbt{font-size: 1em; color: #8e8e8e; font-family: arial;}
+.about-content p{font-size: .9em; color: #333333; line-height: 1.6em; text-align: center; text-indent: 2em;}
+.about-more{width: 28.285%; text-align: center; line-height: 2.3em; font-size: 1em; color: #2a51cc; height: 2.5em; margin: 5% auto; display: block; border: 2px solid #2A51CC; border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px;}
+
+
+/*team*/
+.project{width: 100%; background: url(../img/bg1.jpg) center no-repeat;}
+.about-nav .bt1{background-color: #f6f6f8;}
+.scrollBox{ width:100%;padding:10px 0; position:relative; }
+.scrollBox .piclist{ overflow:hidden; zoom:1;}
+.scrollBox .ohbox{overflow:hidden; position:relative;width:100%;left:20%}
+.scrollBox {position:relative;overflow:hidden;zoom:1;}
+.scrollBox .piclist li{float:right; display:inline; width:70%;}
+.scrollBox .piclist .left{float: left; border: 3px solid #abb8de; border-radius: 3px; -webkit-border-radius: 3px;}
+.scrollBox .pageBtn span{ display:block;width:40px;height:68px;position:absolute;top:30%;cursor:pointer;text-indent:-999em;overflow:hidden; outline: none;}
+.scrollBox .pageBtn .prev{background: url(../img/left.png) left center no-repeat; left: 2%; background-size: 70%;outline: none;}
+.scrollBox .pageBtn .next{background: url(../img/right.png) right center no-repeat; right: 2%; background-size: 70%;outline: none;}
+
+.project .content{padding-bottom: 5%;}
+.scrollBox .ohbox{left: 15%;}
+.scrollBox .piclist li{width: 70%;}
+ .scrollBox .piclist .left{width: 100%; text-align: center;}
+
+
+
+/* expanding */
+.expanding{ width:100%; overflow:hidden;position:relative;}
+.expanding img{ width:100%;}
+.expanding ul li{width: 100%; position: relative;}
+.expanding>ol{position: relative;z-index:10;width:35%; left:30%; bottom:-10px; text-align:right;padding-right:20px;}
+.expanding>ol>li{display:inline-block;margin:5px;width:11px;height:11px; background-color: #fff; border: 1px solid #000; border-radius: 50%;}
+.expanding>ol>li.on{ width: 11px; height: 11px; background-color: #2a51cc; border: 1px solid #2a51cc;}
+
+.expanding .list{width: 41.406%; margin-left: 5.497%; position: relative; overflow: hidden;}
+.expanding .list img{width: 100%; position: relative;}
+.expanding .list-nr{position: absolute; left: 0; top: 0; width: 100%; color: #fff; padding: 10% 5% 0; overflow: hidden;}
+.expanding .list-nr .bt{font-size: 1.4em;}
+.expanding .list-nr .fbt,.expanding .list-nr .nr{font-size: .8em; line-height: 1.4em;}
+
+/*case*/
+.case{ margin-top: -49px;}
+.case1{ margin-top: 0;}
+.case-list{width: 100%; margin: 0 auto; padding-left: 4%;}
+.case-list .list{width: 42.1875%; border: 2px solid #eaeaea; margin: 0 3% 5%; position: relative; text-align: center; z-index: 9;}
+.case-list .list samp{display: inline-block; height: 100%; line-height: 0; vertical-align: middle;}
+.case-list .list span{display: block; width: 100%; height: 2em; background-color: #0f2d8c; position: absolute; bottom: 0; left: 0; z-index: 99;}
+.case-list .list .tit{width: 100%; height: 2em; line-height: 2em; color: #fff; z-index: 999; position: absolute; bottom: 0; left: 0;}
+.about-more1{margin: 5% auto 0;}
+
+/*contact*/
+.contact-content{width: 100%; background: url(../img/bg.jpg) center no-repeat; padding: 5% 3%;}
+.contact-content ul li{width: 32.33%; text-align: center; float: left;}
+.icon1{display: block; width: 62.91%; margin: 0 auto 5%;}
+.contact-content ul li .add{font-size: 1em; color: #fff;}
+
+/*---------------------------------------------------------------------------------------
+ about
+ * */
+.abouts{ margin-top: -49px;}
+.abouts,.abouts .container{width: 100%;}
+.abouts .top{width: 100%; margin: 5% 0;}
+.abouts .top img{width: 54.0625%;}
+.abouts-content{width: 87.5%; margin: 0 auto;}
+.abouts-nav{margin-left: 18%; margin-bottom: 5%;}
+.abouts-nav a{display: block; height: 2.5em; line-height: 2.5em; font-size: 1em; color: #333; border-radius: 5px; -webkit-border-radius: 5px; padding: 0 5%; border: 2px solid #333333;}
+.abouts-nav .last{margin-left: 5%;}
+.abouts-nav .cur{border: 2px solid #0f2d8d; color: #0f2d8d;}
+.abouts .container p{font-size: 1em; color: #333333; margin: 2% 0; text-indent: 2em;}
+
+/*contact-us*/
+.contact-us{width: 100%; background-color: #0f2d8d; padding: 2% 0 5%;}
+.us-content{width: 87.5%; margin: 0 auto;}
+.us-content .tit{width: 100%; color: #fff; font-size: 1.2em; line-height: 2.5em; border-bottom: 2px solid #061981;}
+.us-content .tit span{line-height: 2.5em; display: inline-block; border-bottom: 4px solid #061981; height: 2.5em;}
+.us-content ul li{float: left; width: 100%; margin-top: 5%;}
+.icon2,.icon3,.icon4{width: 37px; height: 37px; display: block; text-align: center; background: #071b83 url(../img/add.png) center no-repeat;}
+.us-content ul li .bt{margin-left: 5%; height: 37px; line-height: 37px; font-size: 1em; color: #fff;}
+.icon3{ background: #071b83 url(../img/tel.png) center no-repeat;}
+.icon4{ background: #071b83 url(../img/meila.png) center no-repeat;}
+
+/*---------------------------------------------------------------------------------------
+online
+ * */
+.online{ margin-top: -49px;}
+.online-content{width: 87.5%; margin: 0 auto;}
+.online-content ul li{width: 100%; margin: 5% 0;}
+.online-content ul li .tit{font-size: 1em; color: #333333;}
+.online-content ul li .text{width: 100%; margin-top: 2%; font-size: 1em; color: #333333; text-indent: 1em; height: 2.5em; border-radius: 5px; -webkit-border-radius: 5px; border: none; background-color: #e8e8e8;}
+.online-content ul li .tarea{width: 100%; margin-top: 2%; font-size: 1em; color: #333333; padding: 1em 0; text-indent: 1em; border-radius: 5px; -webkit-border-radius: 5px; border: none; background-color: #e8e8e8;}
+.online-content ul li .btn{height: 2.5em; margin-bottom: 8%; padding: 0 10%; -webkit-appearance: none; border: none; background-color: #2a51cc; font-size: 1em; color: #fff; border-radius: 5px; -webkit-border-radius: 5px;}
+
+
+/*news*/
+/*
+ ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ * */
+.new-content{width: 100%; margin: -49px auto 0;}
+.new-content .new-list{padding: 1.5%; width: 97%; background-color: #f6f6f6; margin-bottom: 25px;}
+.new-content .new-list .left{width: 100%; text-align: center; font-size: 0;}
+.new-content .new-list .left span{height: 100%; line-height: 0; vertical-align: middle; display: inline-block;}
+.new-content .new-list .middle{width: 58.33%; margin-left: 3%;}
+.new-content .new-list .middle .bt{font-size: 1.1em; color: #333333; line-height: 40px; *line-height: 40px; _line-height: 40px;}
+.new-content .new-list .middle .md-nr{font-size: 1em; color: #666666; text-indent: 2em; line-height: 25px; *line-height: 25px; _line-height: 25px;}
+.new-content .new-list .left{width: 100%;}
+.new-content .new-list .left img{width: 100%;}
+.new-content .new-list .middle{width: 94%; padding: 0 3px;}
+.nb-content .nb-nr{width: 30%;}
+.nb-content .nb-nr span{width: 100%;}
+.nb-content .nb-nr .center{width: 90%;}
+
+/*news-content*/
+/*
+ ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ * */
+.news-content{margin-top: -49px;}
+.news-content .tit{margin-top: 5%; font-size: 1.2em; color: #333333;}
+.news-content .time{font-size: 1em; color: #999; margin-bottom: 5%;}
+.news-content .container{width: 90%; margin: 0 auto;}
+.news-content .container .nr{font-size: 1em; color: #333333; margin-top: 3%; text-indent: 2em;}
+.news-content .bottom{margin: 5% 0;}
+.news-content .bottom a{display: block; width: 100%; font-size: 1em; line-height: 2em; text-decoration: underline;}
+
+
+
+
+

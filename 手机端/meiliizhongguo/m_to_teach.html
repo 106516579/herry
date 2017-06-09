@@ -1,0 +1,104 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, target-densitydpi=medium-dpi, user-scalable=no">
+<meta name="keywords" CONTENT="" />
+<meta name="Description" CONTENT="" />
+<title>我要支教</title>
+<link href="css/mobile.css" rel="stylesheet" type="text/css">
+<script src="js/jquery.min.js"></script>
+<script src="js/TouchSlide.1.1.js"></script>
+<!--[if IE]>
+   <script src="js/html5.js"></script>
+<![endif]-->
+
+</head>
+<!-- 代码部分begin -->
+<header id="header" class="clear">
+    <div class="logo"><img src="images/logo.jpg"></div>
+    <!--<span class="left" onClick="javascript:history.go(-1);">返回</span>-->
+    <div class="keywords"><span>让所有中国孩子</span>无论出身都能获得同等的优质教育</div>
+<span class="right"></span>
+</header>
+
+<div class="menu">
+    <li><a href="#">首页</a></li>
+    <li><a href="#">我要支教</a></li>
+    <li><a href="#">我要捐赠</a></li>
+    <li><a href="#">信息公示</a></li>
+	<li><a href="#">项目影响力</a></li>
+	<li><a href="#">关于我们</a></li>
+</div>
+
+<!--焦点图-->
+<div class="pte clear"><img src="images/pic_11.jpg"></div>
+<div class="back_grey clear">
+	<div class="title_but2 mar0 clear"><img src="images/title_tiaojian.png"></div>
+		<div class="volunteer mar0 clear">
+		<ul>
+			<li class="li_1"><a href="#">学习能力</a></li>
+			<li class="li_2"><a href="#">解难能力</a></li>
+		</ul>
+		<ul>
+			<li class="li_3"><a href="#">沟通能力</a></li>
+			<li class="li_4"><a href="#">思辨能力</a></li>
+		</ul>
+		
+	<span>申请者需要具备全日制本科及以上学历，<br>
+	并在2017年7月15日前获得毕业证书及学位证书。</span>
+	</div>
+	
+	<div class="clear"><A href="#" class="link_a1 padd11">校招入口</A><A href="#" class="link_a1 padd11">社招入口</A><A href="#" class="link_a2 padd11">常见问题</A></div>
+	
+</div>
+<!--申请流程-->
+<div class="title_but1 mar0 clear"><img src="images/title_sqlc.png"></div>
+<div class="pte clear"><img src="images/tech_01.jpg"><img src="images/tech_02.jpg"><img src="images/tech_03.jpg"></div>
+
+<!--其它-->
+<div class="title_but1 mar0 clear"><img src="images/title_qt.png"></div>
+<div class="other">
+    <ul>
+	    <li><img src="images/pic_51.jpg"><p>梦想导师</p></li>
+		<li><img src="images/pic_52.jpg"><p>宣讲会</p></li>
+		<li><img src="images/pic_52.jpg"><p>校园主管</p></li>
+		<li><img src="images/pic_51.jpg"><p>项目地区</p></li>
+	</ul>
+</div>
+<br><br><br>
+
+
+
+<!--footer-->
+<div class="copyright_o clear">Copyright (C) All Right Reserved 版权所有  |  滇ICP备13003106号</div>
+
+
+
+<script>
+$(function(){
+	$("#header span.right").on("click",function(){
+        var val = $(this).attr('class');
+        if(val.indexOf('on') == -1){
+            $(this).addClass('on');
+            $(".menu").show(0).stop().animate({
+                height:'246px'
+            },0);
+        }else{
+            $(this).removeClass('on');
+            $(".menu").hide(0).stop().animate({
+                height:'0'
+            },0);
+        }
+    })
+	
+	$(".menu a").on("click",function(){
+        $(this).parents(".menu").hide();
+        $("#header span.right").removeClass('on');
+    })
+	
+});
+</script>
+<!-- 代码部分end -->
+</body>
+</html>

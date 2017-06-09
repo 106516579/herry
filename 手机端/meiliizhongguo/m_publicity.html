@@ -1,0 +1,96 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, target-densitydpi=medium-dpi, user-scalable=no">
+<meta name="keywords" CONTENT="" />
+<meta name="Description" CONTENT="" />
+<title>信息公示</title>
+<link href="css/mobile.css" rel="stylesheet" type="text/css">
+<script src="js/jquery.min.js"></script>
+<script src="js/TouchSlide.1.1.js"></script>
+<!--[if IE]>
+   <script src="js/html5.js"></script>
+<![endif]-->
+
+</head>
+<!-- 代码部分begin -->
+<header id="header" class="clear">
+    <div class="logo"><img src="images/logo.jpg"></div>
+    <div class="keywords"><span>让所有中国孩子</span>无论出身都能获得同等的优质教育</div>
+    <span class="right"></span></header>
+
+<div class="menu">
+    <li><a href="#">首页</a></li>
+    <li><a href="#">我要支教</a></li>
+    <li><a href="#">我要捐赠</a></li>
+    <li><a href="#">信息公示</a></li>
+	<li><a href="#">项目影响力</a></li>
+	<li><a href="#">关于我们</a></li>
+</div>
+
+<!--焦点图-->
+<div class="back_grey clear">
+<div class="box2 clear"><img src="images/pic_21.jpg"></div>
+<h3>法律实体</h3>
+<div class="box2_content mar0">
+美丽中国是北京立德未来助学公益基金会下设的教育公益项目。北京立德未来助学公益基金会是在北京市民政局下注册成立的非公募基金会，基金会与中国儿童少年基金会签署合作协议成立专项基金，该专项基金具有在中国大陆地区公募资格。基金会-美丽中国项目自成立以来秉持专业的运作理念，公开透明的披露基金会的财务数据，项目发展和组织效率信息。您的捐助，信任，批评和支持都是我们成长发展过程中最大的力量源泉。<br>
+云南思益爱教育支持中心以云南省教育厅为业务主管单位，以云南省民政厅为登记管理机关。云南思益爱教育支持中心是美丽中国项目在云南地区的项目执行单位，负责美丽中国项目在云南地区的运营、管理和监督。
+</div>
+<div class="box2 clear"><img src="images/pic_21.jpg"></div>
+<h3>基金会透明度</h3>
+<div class="box2_content mar0">
+北京立德未来助学公益基金会自2014年成立以来，严格遵守国家法律法规及相关制度的规定。2015年、2016年连续两年在基金会中心网——中基透明指数FTI获取满分100分，在北京市的663家基金会中排名第一。受到了行业的充分肯定，也为提升整个“美丽中国”项目的透明度、提升项目合作方信心、社会公信力及机构的信息公开工作水平奠定了重要基础。运营、管理和监督。
+</div>
+
+<article class="clear box3_back">
+    <div class="box3 clear"><img src="images/title_cwxx.jpg"><img src="images/title_flfg.jpg"><img src="images/title_glzd.jpg"></div>
+</article>
+<!--众筹捐赠榜-->
+<div class="title_but2 mar0 clear"><img src="images/title_zcjzb.png"></div>
+<a href=""><p class="box4 mar0">2014年度众筹捐赠榜</p></a>
+<p class="box4 mar0">2015年度众筹捐赠榜</p>
+<p class="box4 mar0">2016年度众筹捐赠榜</p>
+</div>
+
+<div class="box3_back">
+<div class="title_but1 mar0 clear"><img src="images/title_dzxx.png"></div>
+<div class="box5 mar0">
+<img src="images/title_flfg.jpg">
+</div>
+<p class="box6 mar0 box6_pt">2016免税制度</p>
+<p class="box6 mar0">2016年检通过</p>
+<p class="box6 mar0 box6_pb">免税制度</p>
+
+</div>
+<!--footer-->
+<div class="copyright_o clear copy_p">Copyright (C) All Right Reserved 版权所有  |  滇ICP备13003106号</div>
+
+
+<script>
+$(function(){
+	$("#header span.right").on("click",function(){
+        var val = $(this).attr('class');
+        if(val.indexOf('on') == -1){
+            $(this).addClass('on');
+            $(".menu").show(0).stop().animate({
+                height:'246px'
+            },0);
+        }else{
+            $(this).removeClass('on');
+            $(".menu").hide(0).stop().animate({
+                height:'0'
+            },0);
+        }
+    })
+	
+	$(".menu a").on("click",function(){
+        $(this).parents(".menu").hide();
+        $("#header span.right").removeClass('on');
+    })
+	
+});
+</script>
+<!-- 代码部分end -->
+</body>
+</html>

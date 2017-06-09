@@ -1,0 +1,130 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, target-densitydpi=medium-dpi, user-scalable=no">
+<meta name="keywords" CONTENT="" />
+<meta name="Description" CONTENT="" />
+<title>项目影响力</title>
+<link href="css/mobile.css" rel="stylesheet" type="text/css">
+<script src="js/jquery.min.js"></script>
+<script src="js/TouchSlide.1.1.js"></script>
+<!--[if IE]>
+   <script src="js/html5.js"></script>
+<![endif]-->
+
+</head>
+<!-- 代码部分begin -->
+<header id="header" class="clear">
+    <div class="logo"><img src="images/logo.jpg"></div>
+    <!--<span class="left" onClick="javascript:history.go(-1);">返回</span>-->
+    <div class="keywords"><span>让所有中国孩子</span>无论出身都能获得同等的优质教育</div>
+<span class="right"></span></header>
+
+<div class="menu">
+    <li><a href="#">首页</a></li>
+    <li><a href="#">我要支教</a></li>
+    <li><a href="#">我要捐赠</a></li>
+    <li><a href="#">信息公示</a></li>
+	<li><a href="#">项目影响力</a></li>
+	<li><a href="#">关于我们</a></li>
+</div>
+
+<!--焦点图-->
+<div class="pte clear"><img src="images/big_data.jpg"></div>
+<!--影响力-->
+<div class="back_grey clear">
+	<div class="yxingl">
+	   <div class="yxingl_lt mar0"><h3>课堂影响力</h3><p>在2014-2015秋季学期中，<br>项目老师带领学生在学习成绩上取的显著进步。</p>
+	   <ul>
+		   <li><span><img src="images/icon_k1.png" /></span><div>61%的班级在重大考试中的平均分获得提高</div></li>
+		   <li><span><img src="images/icon_k2.png" /></span><div>60%的班级在重大考试中的及格率获得提高</div></li>
+		   <li style="margin-right:0;"><span><img src="images/icon_k3.png" /></span><div>67%以上的班级在美丽中国项目老师的带领下成为所在年级前三名</div></li>
+	   </ul>
+	   </div>
+	   <div class="yxingl_lt" style="margin-top:15px;"><h3>社区影响力</h3><p>课堂外，美丽中国项目老师<br>发起项目，为学生和社区带来突破性发展。</p>
+	   <ul>
+		   <li style="margin-left:15%;"><span><img src="images/icon_k4.png" /></span><div>90.4%的项目老师开展了自主项目</div></li>
+		   <li style="margin-left:3%;"><span><img src="images/icon_k5.png" /></span><div>项目老师自主项目直接影响学生约54,258人次</div></li>
+	   </ul>
+	   </div>
+	   <div class="yxingl_lt" style="margin-top:15px;"><h3>校友影响力</h3><p>校友人数增长</p>
+	   <ul>
+		   <img src="images/pic_31.jpg" />
+		   <div class="whereabouts">校友工作去向图</div>
+			<div class="where mar0">教育、政府和非盈利：<cite>66%</cite>    商业领域：<cite>18%</cite><br>
+			研究生院学习：<cite>11%</cite>   创业：<cite>4%</cite>   其他：<cite>1%</cite>
+			</div>
+	   </ul>
+	   </div>
+	</div>
+</div>
+
+<div class="title_but2 mar0 clear"><img src="images/title_wjlsgs.png"></div>
+<div class="story mar0 clear">
+    <p class="mar0"><img src="images/banner.jpg"><span>李思特</span>北京大学毕业的李思特老师，刚开始教学就带了初三的化学课，压力好大！</p>
+	<p class="mar0"><img src="images/banner.jpg"><span>李思特</span>北京大学毕业的李思特老师，刚开始教学就带了初三的化学课，压力好大！</p>
+</div>
+
+<div class="back_grey clear">
+<div class="title_but2 mar0 clear link_donate"><img src="images/title_wjlsqx.png"></div>
+<div class="tab_01 link_donate">
+
+    <ul class="p_tabnum"></ul>
+
+	<div id="j_floor_1" class="p_newstab" style="visibility: visible;">
+		<div class="p_newsitem">
+			<div data-index="0" style="width: 100%; left: 0px; transition: 0ms; -webkit-transition: 0ms; -webkit-transform: translate(0px, 0px) translateZ(0px);">
+			         <div class="link_list mar0">
+						<ul>
+							<li><img src="images/img_link.jpg" /></li>
+							<li><img src="images/img_link.jpg" /></li>
+							<li><img src="images/img_link.jpg" /></li>
+							<li><img src="images/img_link.jpg" /></li>
+							<li><img src="images/img_link.jpg" /></li>
+							<li><img src="images/img_link.jpg" /></li>
+							<li><img src="images/img_link.jpg" /></li>
+							<li><img src="images/img_link.jpg" /></li>
+						</ul>
+					</div>
+			</div>
+	
+		</div>
+	</div>
+</div>
+<div class="title_but2 mar0 clear"><img src="images/title_xmlszc.png"></div>
+<div class="title_but3 mar0 clear"><img src="images/pic_link.png"></div>
+
+</div>
+
+<!--footer-->
+<div class="copyright_o clear">Copyright (C) All Right Reserved 版权所有  |  滇ICP备13003106号</div>
+
+
+<script>
+$(function(){
+	$("#header span.right").on("click",function(){
+        var val = $(this).attr('class');
+        if(val.indexOf('on') == -1){
+            $(this).addClass('on');
+            $(".menu").show(0).stop().animate({
+                height:'246px'
+            },0);
+        }else{
+            $(this).removeClass('on');
+            $(".menu").hide(0).stop().animate({
+                height:'0'
+            },0);
+        }
+    })
+	
+	$(".menu a").on("click",function(){
+        $(this).parents(".menu").hide();
+        $("#header span.right").removeClass('on');
+    })
+	
+});
+</script>
+<!-- 代码部分end -->
+</body>
+</html>
