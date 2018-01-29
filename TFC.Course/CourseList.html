@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>美丽中国-选课系统</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="" name="author" />
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all" rel="stylesheet" type="text/css" />
+    <link href="assets/global/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="assets/global/plugins/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css" />
+    <link href="assets/global/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="assets/global/plugins/bootstrap-switch/css/bootstrap-switch.min.css" rel="stylesheet" type="text/css" />
+    <link href="assets/global/plugins/datatables/datatables.min.css" rel="stylesheet" type="text/css" />
+    <link href="assets/global/plugins/datatables/plugins/bootstrap/datatables.bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="assets/global/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.min.css" rel="stylesheet" type="text/css" />
+    <link href="assets/global/plugins/bootstrap-modal/css/bootstrap-modal-bs3patch.css" rel="stylesheet" type="text/css" />
+    <link href="assets/global/plugins/bootstrap-modal/css/bootstrap-modal.css" rel="stylesheet" type="text/css" />
+    <link href="assets/global/plugins/bootstrap-fileinput/bootstrap-fileinput.css" rel="stylesheet" type="text/css" />
+    <link href="assets/global/css/components.min.css" rel="stylesheet" id="style_components" type="text/css" />
+    <link href="assets/global/css/plugins.min.css" rel="stylesheet" type="text/css" />
+    <link href="assets/layouts/layout2/css/layout.min.css" rel="stylesheet" type="text/css" />
+    <link href="assets/layouts/layout2/css/themes/blue.css" rel="stylesheet" type="text/css" id="style_color" />
+    <link href="assets/layouts/layout2/css/custom.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/clockface.css" rel="stylesheet" type="text/css" />
+</head>
+<style>
+    td a.detail {
+        width: 150px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        display: block
+    }
+    
+    table.dataTable thead th {
+        padding: 10px 10px
+    }
+    
+    .thumbnail {
+        padding: 0
+    }
+</style>
+
+<body class="page-header-fixed page-sidebar-closed-hide-logo page-container-bg-solid">
+    <div class="page-header navbar navbar-fixed-top">
+        <div class="page-header-inner ">
+            <div class="page-logo">
+                <a href="CourseList.html">
+                    <img src="assets/pages/img/logo_sw.png" alt="logo" class="logo-default">
+                </a>
+                <div class="menu-toggler sidebar-toggler"></div>
+            </div>
+            <a href="javascript:;" class="menu-toggler responsive-toggler" data-toggle="collapse" data-target=".navbar-collapse"> </a>
+            <div class="page-top">
+                <div class="top-menu">
+                    <ul class="nav navbar-nav pull-right">
+                        <li class="dropdown dropdown-user">
+                            <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+                                <span class="username username-hide-on-mobile" id="UserName"> </span>
+                            </a>
+                        </li>
+                        <li class="dropdown dropdown-user">
+                            <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+                                <span class="username username-hide-on-mobile" id="UserCareer"> </span>
+                            </a>
+                        </li>
+                        <li class="dropdown dropdown-user">
+                            <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+                                <span class="username username-hide-on-mobile" id="UserisMainTeacher"> </span>
+                            </a>
+                        </li>
+                        <li class="dropdown dropdown-user">
+                            <a href="https://jinshuju.net/f/ORyKRj" class="dropdown-toggle" target="_blank">
+                                <i class="fa icon-note" style="font-size:16px;" title="意见反馈"></i>
+                            </a>
+                        </li>
+                        <li class="dropdown dropdown-extended quick-sidebar-toggler">
+                            <span class="sr-only">Toggle Quick Sidebar</span>
+                            <i class="icon-logout" onclick="logout()" title="退出"></i>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="page-container">
+        <div class="page-sidebar-wrapper">
+            <div class="page-sidebar navbar-collapse collapse">
+                <ul class="page-sidebar-menu  page-header-fixed page-sidebar-menu-hover-submenu " data-keep-expanded="false" data-auto-scroll="true" data-slide-speed="200">
+                    <li class="nav-item   " id="hideuser">
+                        <a href="UserList.html" class="nav-link nav-toggle" id="lbl-user">
+                            <i class="icon-users"></i>
+                            <span class="title">用户</span>
+                            <span class="arrow open"></span>
+                        </a>
+                    </li>
+                    <li class="nav-item" id="lbl-course">
+                        <a href="Course.html" class="nav-link nav-toggle">
+                            <i class="icon-paper-clip"></i>
+                            <span class="title">选课</span>
+                            <span class="arrow"></span>
+                        </a>
+                    </li>
+                    <li class="nav-item start active open" id="lbl-courselist">
+                        <a href="CourseList.html" class="nav-link nav-toggle">
+                            <i class="icon-graduation"></i>
+                            <span class="title">课程列表</span>
+                            <span class="selected"></span>
+                            <span class="arrow"></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="page-content-wrapper">
+            <div class="page-content">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="portlet light ">
+                            <div class="portlet-title">
+                                <div class="caption font-dark">
+                                    <i class="icon-graduation font-dark"></i>
+                                    <span class="caption-subject bold uppercase">课程列表</span>
+                                </div>
+
+                                <div class="tools">
+                                    <a class="btn blue" style="height:auto" data-toggle="modal" href="#form-model" id="ImportCourses">导入课程</a>
+                                    <div class="btn-group pull-right" id="ExportCoursesByRegion">
+                                        <button type="button" data-toggle="dropdown" data-hover="dropdown" data-delay="1000" data-close-others="true" aria-expanded="true" class="btn blue uppercase " style="margin-left:4px;"> 导出区域课程
+                                            <i class="fa fa-angle-down"></i>
+                                        </button>
+                                        <ul class="dropdown-menu pull-right" role="menu">
+                                            <li>
+                                                <a onclick="ExportCoursesByRegion('YM')" id="ExportCoursesByRegion">
+                                                    <i class="icon-bell"></i> 粤闽</a>
+                                            </li>
+                                            <li>
+                                                <a onclick="ExportCoursesByRegion('GG')" id="ExportCoursesByRegion">
+                                                    <i class="icon-shield"></i> 广甘 </a>
+                                            </li>
+                                            <li>
+                                                <a onclick="ExportCoursesByRegion('YN')" id="ExportCoursesByRegion">
+                                                    <i class="icon-bag"></i> 云南 </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <button id="ExportCoursesByUser" onclick="ExportCoursesByUser()" class="btn blue uppercase">导出课程</button>
+                                </div>
+                            </div>
+                            <div class="portlet-body">
+                                <table class="table table-striped table-bordered table-hover" id="sample_1">
+                                    <thead>
+                                        <tr>
+                                            <th>区域</th>
+                                            <th>上课日期</th>
+                                            <th>课程时间</th>
+                                            <th>课程名称</th>
+                                            <th>课程介绍</th>
+                                            <th>讲师</th>
+                                            <th>讲师介绍</th>
+                                            <!-- <th>操作</th> -->
+                                        </tr>
+                                    </thead>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portlet-body">
+            <div id="responsive" class="modal fade" tabindex="-1" data-width="760">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                    <h4 class="modal-title">课程详细</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h5>课程名称</h5>
+                            <p><input class="form-control" type="text" id="CourseName"></p>
+
+                        </div>
+                        <div class="col-md-6">
+                            <h5>讲师</h5>
+                            <p><input class="form-control" type="text" id="Lecturer"> </p>
+                        </div>
+                        <div class="col-md-12">
+                            <h5>课程介绍</h5>
+                            <p id="CourseDetail"></p>
+                            <h5>讲师介绍</h5>
+                            <p id="LecturerDetail"></p>
+                        </div>
+                        <div class="col-md-6">
+                            <h5>学员上限</h5>
+                            <p><input class="form-control" type="text" id="MaxNumber"> </p>
+
+
+                            <h5>区域</h5>
+                            <p><input class="form-control" type="text" id="Region"> </p>
+
+                            <h5>上课日期</h5>
+                            <p><input class="form-control" type="text" id="CourseDate"> </p>
+                            <h5>职业类</h5>
+                            <p><input class="form-control" type="text" id="Career"> </p>
+                            <h5>界别</h5>
+                            <p><input class="form-control" type="text" id="Sector"> </p>
+
+                        </div>
+                        <div class="col-md-6">
+                            <h5>分类</h5>
+                            <p><input id="Category" class="form-control" type="text" /></p>
+                            <h5>标签</h5>
+                            <p><input class="form-control" type="text" id="Group"> </p>
+                            <h5>课程编码</h5>
+                            <p><input class="form-control" type="text" id="CourseCode"> </p>
+                            <h5>班主任</h5>
+                            <p><input class="form-control" type="text" id="MainTeacher"> </p>
+                            <h5>教室</h5>
+                            <p><input class="form-control" type="text" id="Class"> </p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" data-dismiss="modal" class="btn btn-outline dark">关闭</button>
+                </div>
+            </div>
+            <div id="form-model" class="modal fade" tabindex="-1" data-width="660">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                    <h4 class="modal-title">导入文件</h4>
+                </div>
+                <div class="modal-body">
+                    <form action="http://api.course.tfchina.org/v1/import/courses" enctype="multipart/form-data" method="post" target="rfFrame">
+                        <div class="form-group">
+                            <label class="control-label col-md-12" style="margin-bottom:10px">请导入您的课程文件（.xlsx）</label>
+                            <div class="col-md-12">
+                                <div class="fileinput fileinput-new" data-provides="fileinput">
+                                    <div class="input-group input-large">
+                                        <div class="form-control uneditable-input input-fixed input-medium" data-trigger="fileinput">
+                                            <i class="fa fa-file fileinput-exists"></i>&nbsp;
+                                            <span class="fileinput-filename"> </span>
+                                        </div>
+                                        <span class="input-group-addon btn blue btn-file">
+                                            <span class="fileinput-new">选择文件</span>
+                                        <span class="fileinput-exists">更改文件</span>
+                                        <input type="file" name="..."> </span>
+                                        <a href="javascript:;" class="input-group-addon btn red fileinput-exists" data-dismiss="fileinput">移除文件</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <input type="submit" value="提交" style="float:right; margin:5px 12px 24px 0px" class="btn green-meadow" id='submit'>
+                    </form>
+                    <iframe id="rfFrame" name="rfFrame" src="" style="display:none"></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="page-footer">
+            <div class="page-footer-inner"> 版权所有 © 北京立德未来助学公益基金会
+                <div class="scroll-to-top">
+                    <i class="icon-arrow-up"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+<script src="assets/global/plugins/jquery.min.js" type="text/javascript"></script>
+<script src="assets/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="assets/global/plugins/js.cookie.min.js" type="text/javascript"></script>
+<script src="assets/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
+<script src="assets/global/plugins/jquery.blockui.min.js" type="text/javascript"></script>
+<script src="assets/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js" type="text/javascript"></script>
+<script src="assets/global/scripts/datatable.js" type="text/javascript"></script>
+<script src="assets/global/plugins/datatables/datatables.min.js" type="text/javascript"></script>
+<script src="assets/global/plugins/datatables/plugins/bootstrap/datatables.bootstrap.js" type="text/javascript"></script>
+<script src="assets/global/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js" type="text/javascript"></script>
+<script src="assets/global/plugins/bootstrap-modal/js/bootstrap-modalmanager.js" type="text/javascript"></script>
+<script src="assets/global/plugins/bootstrap-modal/js/bootstrap-modal.js" type="text/javascript"></script>
+<script src="assets/global/plugins/bootstrap-fileinput/bootstrap-fileinput.js" type="text/javascript"></script>
+<script src="assets/global/scripts/app.min.js" type="text/javascript"></script>
+<script src="assets/layouts/layout2/scripts/layout.min.js" type="text/javascript"></script>
+<script src="assets/layouts/layout2/scripts/demo.min.js" type="text/javascript"></script>
+<script src="assets/layouts/global/scripts/quick-sidebar.min.js" type="text/javascript"></script>
+<script src="assets/layouts/global/scripts/quick-nav.min.js" type="text/javascript"></script>
+<script src="js/common.js" type="text/javascript"></script>
+<script src="js/jquery.cookie.js" type="text/javascript"></script>
+<script src="js/jquery.form.js" type="text/javascript"></script>
+<script>
+    var cacheCourses = [];
+
+    function setCurrentCourseId(courseId) {
+        var currentCourse = {};
+        for (var i = 0; i < cacheCourses.length; i++) {
+            if (cacheCourses[i].CourseID === courseId) {
+                currentCourse = cacheCourses[i];
+            }
+        }
+        if (currentCourse != null) {
+            $("#Category").val(currentCourse.Category);
+            $("#CourseId").val(currentCourse.CourseID);
+            $("#Lecturer").val(currentCourse.Lecturer);
+            $("#Region").val(GetRegionName(currentCourse.Region));
+            $("#CourseName").val(currentCourse.CourseName);
+            $("#CourseDate").val(DateFormat(currentCourse.Date));
+            $("#MaxNumber").val(currentCourse.MaxNumber);
+            $("#Sector").val(currentCourse.Sector);
+            $("#Group").val(currentCourse.Group);
+            $("#CourseCode").val(currentCourse.CourseCode);
+            $("#MainTeacher").val(judge(currentCourse.MainTeacher));
+            $("#Class").val(currentCourse.Class);
+            $("#Career").val(currentCourse.Career);
+            $("#CourseDetail").text(currentCourse.CourseDetail);
+            $("#LecturerDetail").text(currentCourse.LecturerDetail);
+        }
+    }
+
+    $(function() {
+        function error() {}
+        islogin();
+        CallApi('v1/courses/user/' + $.cookie('UserId'), 'get', '', function(data) {
+            cacheCourses = data.Result;
+            $('#sample_1').DataTable({
+                "paging": false,
+                ordering: false,
+                bProcessing: true,
+                data: data.Result,
+                columns: [{
+                    data: function(e) {
+                        return GetRegionName(e.Region);
+                    }
+                }, {
+                    data: function(e) {
+                        return DateFormat(e.Date);
+                    }
+                }, {
+                    data: function(e) {
+                        return (e.StartTime + '--' + e.EndTime);
+                    }
+                }, {
+                    data: 'CourseName'
+                }, {
+                    data: function(e) {
+                        return '<a class="detail" data-toggle="modal" href="#responsive" onclick="setCurrentCourseId(' + e.CourseID + ')">' +
+                            e.CourseDetail + ' </a>';
+                    }
+                }, {
+                    data: 'Lecturer'
+                }, {
+                    data: function(e) {
+                            return '<a class="detail" data-toggle="modal" href="#responsive" style="color:#404040" onclick="setCurrentCourseId(' + e.CourseID + ')">' +
+                                e.LecturerDetail + ' </a>';
+                        }
+                        // }, {
+                        //     data: function(e) {
+                        //         return '<div class="btn-group pull-right"><button class="btn blue btn-xs btn-outline dropdown-toggle" data-toggle="dropdown">操作<i class="fa fa-angle-down"></i></button><ul class="dropdown-menu pull-right">' +
+                        //             '<li><a href="#responsive" data-toggle="modal" onclick="setCurrentCourseId(' +
+                        //             e.CourseID +
+                        //             ')"><i class="fa fa-pencil-square-o"></i>查看</a></li>' + '<li><a href="javascript:;" onclick="editCourse(' +
+                        //             e.ID +
+                        //             ')"><i class="fa fa-pencil-square-o"></i>修改</a></li>' +
+                        //             '<li><a href="javascript:;" onclick="deleteCourse(' +
+                        //             e.ID +
+                        //             ')"><i class="fa fa-times"></i>删除</a></li></ul></div>';
+                        //     }
+                }],
+                "oLanguage": { //插件的汉化
+                    "sLengthMenu": "每页显示 _MENU_ 条记录",
+                    "sZeroRecords": "抱歉， 没有找到",
+                    "sInfo": "共 _TOTAL_ 条数据",
+                    "sInfoEmpty": "没有数据",
+                    "sInfoFiltered": "(从 _MAX_ 条数据中检索)",
+                    "oPaginate": {
+                        "sFirst": "首页",
+                        "sPrevious": "前一页",
+                        "sNext": "后一页",
+                        "sLast": "尾页"
+                    },
+                    "sZeroRecords": "没有检索到数据",
+                    "sProcessing": "<img src='' />",
+                    "sSearch": "搜索："
+                }
+            });
+        });
+
+
+
+        CallApi('v1/user/' + $.cookie('UserId'), 'get', '', function(data) {
+            $('#UserName').text(data.Result.Name);
+            $('#UserCareer').text(data.Result.Sector);
+            if (data.Result.IsMainTeacher == true) {
+                $("#UserisMainTeacher").text('班主任')
+            } else if (data.Result.IsAdmin == true) {
+                $("#UserisMainTeacher").text('管理员')
+            } else {
+                $("#UserisMainTeacher").text('教师')
+            }
+            $.cookie('idAmdin', data.Result.IsAdmin == true ? 1 : 0);
+
+            if (data.Result.IsAdmin == true) {} else {
+                CallApi('v1/check/' + $.cookie('UserId'), 'Get', '', checksuccess, error);
+
+                function checksuccess(data) {
+                    if (data.Result === 0) {
+                        return
+                    } else {
+                        $('#lbl-course').remove()
+                    }
+                }
+                $("#hideuser").remove();
+                $("#ExportAllUsers").remove();
+                $("#ExportCoursesByRegion").remove();
+                $("#ImportCourses").remove();
+            }
+        })
+
+
+    });
+
+    function logout() {
+        window.location = 'Default.html';
+        $('#logout') + $.cookie('UserId', null);
+        return false;
+    }
+    $('#submit').click(function() {
+        setTimeout(function() {
+            window.location = 'Course.html';
+        }, 300)
+    })
+
+
+    // function editCourse(courseId) {
+    //     alert(courseId);
+    // }
+
+    // function deleteCourse(courseId) {
+    //     alert(courseId);
+    // }
+    function ExportCoursesByRegion(regionCode) {
+        window.location.href = 'http://api.course.tfchina.org/v1/export/courses/region/' + regionCode;
+    }
+
+    function ExportCoursesByUser() {
+        window.location.href = 'http://api.course.tfchina.org/v1/export/courses/user/' + $.cookie('UserId');
+    }
+    // $('input').attr('disabled',true)
+
+
+    // $('form').on("submit",function() {
+    //     $(this).ajaxSubmit(
+    //         {
+    //             //url: 'http://api.course.tfchina.org/v1/import/courses',                
+    //             //type: 'post',               //默认是form的method（get or post）
+    //             //dataType: "json",           //html(默认), xml, script, json...接受服务端返回的类型
+    //             //clearForm: true,          //成功提交后，清除所有表单元素的值
+    //             //resetForm: true,          //成功提交后，重置所有表单元素的值
+    //             target: '#output',          //把服务器返回的内容放入id为output的元素中
+    //             //timeout: 3000,               //限制请求的时间，当请求大于3秒后，跳出请求
+    //             //提交前的回调函数
+    //             beforeSubmit: function(arr,$form,options){
+    //                 //formData: 数组对象，提交表单时，Form插件会以Ajax方式自动提交这些数据，格式如：[{name:user,value:val },{name:pwd,value:pwd}]
+    //                 //jqForm:   jQuery对象，封装了表单的元素
+    //                 //options:  options对象
+    //                 //比如可以再表单提交前进行表单验证
+    //                 console.log("beforeSubmit",arr,$form,options)
+    //             },
+    //             //提交成功后的回调函数
+    //             success: function(data,status,xhr,$form){
+    //                 alert('提交成功')
+    //             },
+    //             error: function(xhr, status, error, $form){
+    //                 alert("Error")
+    //             }
+    //             // complete: function(xhr, status, $form){
+    //             //     alert('提交')
+    //             // }
+    //         }
+    //     );
+    //     return false; //阻止表单默认提交
+    // });
+</script>

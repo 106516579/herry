@@ -1,0 +1,44 @@
+.create-account {
+    color: #c3cedd;
+}
+
+.logo-default img {
+    width: 110px!important;
+    height: 60px!important;
+}
+
+.dataTables_filter {
+    float: right;
+    text-align: right;
+}
+
+.modal {
+    bottom: auto;
+    /* margin-top: 5%!important; */
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 9px;
+    background-clip: padding-box;
+    padding: 0px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.2);
+    border-image: initial;
+    border-radius: 6px;
+    display: table;
+    margin: 0px auto;
+}
+
+.modal-body {
+    overflow-y: scroll;
+    position: absolute;
+    top: 55px;
+    bottom: 65px;
+    width: 100%;
+    min-height: 768px;
+    background-color: rgb(255, 255, 255);
+}
+
+.col-md-12 {
+    padding-right: 0px!important;
+}
+.form-title {font-family:"Microsoft YaHei"!important; font-size: 26px!important;}

@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ecbfde0c-1c96-43e7-8637-8278d91b2110" name="Default" comment="" />
+    <ignored path="hanjia.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="hanjia" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="Course.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Course.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="392" column="34" selection-start-line="392" selection-start-column="34" selection-end-line="392" selection-end-column="34" />
+              <folding>
+                <element signature="n#style#0;n#button#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#font#0;n#button#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#font#0;n#font#0;n#button#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1512383602977" expanded="true" signature="15672:15686" placeholder="..." />
+                <marker date="1512383602977" expanded="true" signature="16306:16320" placeholder="..." />
+                <marker date="1512383602977" expanded="true" signature="19737:24472" placeholder="{...}" />
+                <marker date="1512383602977" expanded="true" signature="19762:24456" placeholder="{&quot;url&quot;: &quot;http://api.course.tfchina.org/v1/courses&quot;...}" />
+                <marker date="1512383602977" expanded="true" signature="19911:24437" placeholder="{...}" />
+                <marker date="1512383602977" expanded="true" signature="19982:24415" placeholder="{...}" />
+                <marker date="1512383602977" expanded="true" signature="20211:24387" placeholder="{&quot;paging&quot;: false...}" />
+                <marker date="1512383602977" expanded="true" signature="20465:21447" placeholder="[...]" />
+                <marker date="1512383602977" expanded="true" signature="20503:20878" placeholder="{...}" />
+                <marker date="1512383602977" expanded="true" signature="20564:20840" placeholder="{...}" />
+                <marker date="1512383602977" expanded="true" signature="20683:20768" placeholder="..." />
+                <marker date="1512383602977" expanded="true" signature="21100:21361" placeholder="{...}" />
+                <marker date="1512383602977" expanded="true" signature="21161:21323" placeholder="{...}" />
+                <marker date="1512383602977" expanded="true" signature="21494:22352" placeholder="{&quot;sLengthMenu&quot;: &quot;每页显示 _MENU_ 条记录&quot;...}" />
+                <marker date="1512383602977" expanded="true" signature="21879:22144" placeholder="{&quot;sFirst&quot;: &quot;首页&quot;...}" />
+                <marker date="1512383602977" expanded="true" signature="22398:23412" placeholder="[...]" />
+                <marker date="1512383602977" expanded="true" signature="22399:22847" placeholder="{&quot;targets&quot;: 5...}" />
+                <marker date="1512383602977" expanded="true" signature="22508:22813" placeholder="{...}" />
+                <marker date="1512383602977" expanded="true" signature="23446:23527" placeholder="//..." />
+                <marker date="1512383602977" expanded="true" signature="23596:24356" placeholder="{...}" />
+                <marker date="1512383602977" expanded="true" signature="23898:24320" placeholder="{...}" />
+                <marker date="1512383602977" expanded="true" signature="23960:24282" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CourseList.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CourseList.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="520">
+              <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+              <folding>
+                <marker date="1512383636342" expanded="true" signature="15398:18615" placeholder="{...}" />
+                <marker date="1512383636342" expanded="true" signature="15502:18181" placeholder="{...}" />
+                <marker date="1512383636342" expanded="true" signature="15581:18169" placeholder="{&quot;ordering&quot;: false...}" />
+                <marker date="1512383636342" expanded="true" signature="15712:17493" placeholder="[...]" />
+                <marker date="1512383636342" expanded="true" signature="15713:15850" placeholder="{...}" />
+                <marker date="1512383636342" expanded="true" signature="15753:15832" placeholder="{...}" />
+                <marker date="1512383636342" expanded="true" signature="15852:15984" placeholder="{...}" />
+                <marker date="1512383636342" expanded="true" signature="15892:15966" placeholder="{...}" />
+                <marker date="1512383636342" expanded="true" signature="15986:16132" placeholder="{...}" />
+                <marker date="1512383636342" expanded="true" signature="16026:16114" placeholder="{...}" />
+                <marker date="1512383636342" expanded="true" signature="16134:16192" placeholder="{&quot;data&quot;: 'CourseName'...}" />
+                <marker date="1512383636342" expanded="true" signature="16194:16456" placeholder="{...}" />
+                <marker date="1512383636342" expanded="true" signature="16234:16438" placeholder="{...}" />
+                <marker date="1512383636342" expanded="true" signature="16458:16514" placeholder="{&quot;data&quot;: 'Lecturer'...}" />
+                <marker date="1512383636342" expanded="true" signature="16574:17492" placeholder="{...}" />
+                <marker date="1512383636342" expanded="true" signature="16614:17474" placeholder="{...}" />
+                <marker date="1512383636342" expanded="true" signature="17524:18155" placeholder="{&quot;sLengthMenu&quot;: &quot;每页显示 _MENU_ 条记录&quot;...}" />
+                <marker date="1512383636342" expanded="true" signature="17814:17999" placeholder="{&quot;sFirst&quot;: &quot;首页&quot;...}" />
+                <marker date="1512383636342" expanded="true" signature="18262:18606" placeholder="{...}" />
+                <marker date="1512383636342" expanded="true" signature="18439:18596" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Default.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Default.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="607">
+              <caret line="81" column="11" selection-start-line="81" selection-start-column="11" selection-end-line="81" selection-end-column="11" />
+              <folding>
+                <marker date="1512377991152" expanded="true" signature="2370:3563" placeholder="{...}" />
+                <marker date="1512377991152" expanded="true" signature="2407:2828" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserList.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/UserList.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="407">
+              <caret line="228" column="31" selection-start-line="228" selection-start-column="31" selection-end-line="228" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="common.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/common.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2236">
+              <caret line="125" column="37" selection-start-line="125" selection-start-column="37" selection-end-line="125" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/CourseList.html" />
+        <option value="$PROJECT_DIR$/js/common.js" />
+        <option value="$PROJECT_DIR$/Default.html" />
+        <option value="$PROJECT_DIR$/Course.html" />
+        <option value="$PROJECT_DIR$/UserList.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hanjia" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hanjia" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hanjia" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hanjia" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hanjia" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ecbfde0c-1c96-43e7-8637-8278d91b2110" name="Default" comment="" />
+      <created>1512358642708</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1512358642708</updated>
+      <workItem from="1512358644034" duration="2980000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2980000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10432034" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2236">
+          <caret line="125" column="37" selection-start-line="125" selection-start-column="37" selection-end-line="125" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Default.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="607">
+          <caret line="81" column="11" selection-start-line="81" selection-start-column="11" selection-end-line="81" selection-end-column="11" />
+          <folding>
+            <marker date="1512377991152" expanded="true" signature="2370:3563" placeholder="{...}" />
+            <marker date="1512377991152" expanded="true" signature="2407:2828" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CourseList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+          <folding>
+            <marker date="1512383636342" expanded="true" signature="15398:18615" placeholder="{...}" />
+            <marker date="1512383636342" expanded="true" signature="15502:18181" placeholder="{...}" />
+            <marker date="1512383636342" expanded="true" signature="15581:18169" placeholder="{&quot;ordering&quot;: false...}" />
+            <marker date="1512383636342" expanded="true" signature="15712:17493" placeholder="[...]" />
+            <marker date="1512383636342" expanded="true" signature="15713:15850" placeholder="{...}" />
+            <marker date="1512383636342" expanded="true" signature="15753:15832" placeholder="{...}" />
+            <marker date="1512383636342" expanded="true" signature="15852:15984" placeholder="{...}" />
+            <marker date="1512383636342" expanded="true" signature="15892:15966" placeholder="{...}" />
+            <marker date="1512383636342" expanded="true" signature="15986:16132" placeholder="{...}" />
+            <marker date="1512383636342" expanded="true" signature="16026:16114" placeholder="{...}" />
+            <marker date="1512383636342" expanded="true" signature="16134:16192" placeholder="{&quot;data&quot;: 'CourseName'...}" />
+            <marker date="1512383636342" expanded="true" signature="16194:16456" placeholder="{...}" />
+            <marker date="1512383636342" expanded="true" signature="16234:16438" placeholder="{...}" />
+            <marker date="1512383636342" expanded="true" signature="16458:16514" placeholder="{&quot;data&quot;: 'Lecturer'...}" />
+            <marker date="1512383636342" expanded="true" signature="16574:17492" placeholder="{...}" />
+            <marker date="1512383636342" expanded="true" signature="16614:17474" placeholder="{...}" />
+            <marker date="1512383636342" expanded="true" signature="17524:18155" placeholder="{&quot;sLengthMenu&quot;: &quot;每页显示 _MENU_ 条记录&quot;...}" />
+            <marker date="1512383636342" expanded="true" signature="17814:17999" placeholder="{&quot;sFirst&quot;: &quot;首页&quot;...}" />
+            <marker date="1512383636342" expanded="true" signature="18262:18606" placeholder="{...}" />
+            <marker date="1512383636342" expanded="true" signature="18439:18596" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Course.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="392" column="34" selection-start-line="392" selection-start-column="34" selection-end-line="392" selection-end-column="34" />
+          <folding>
+            <element signature="n#style#0;n#button#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#font#0;n#button#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#font#0;n#font#0;n#button#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1512383602977" expanded="true" signature="15672:15686" placeholder="..." />
+            <marker date="1512383602977" expanded="true" signature="16306:16320" placeholder="..." />
+            <marker date="1512383602977" expanded="true" signature="19737:24472" placeholder="{...}" />
+            <marker date="1512383602977" expanded="true" signature="19762:24456" placeholder="{&quot;url&quot;: &quot;http://api.course.tfchina.org/v1/courses&quot;...}" />
+            <marker date="1512383602977" expanded="true" signature="19911:24437" placeholder="{...}" />
+            <marker date="1512383602977" expanded="true" signature="19982:24415" placeholder="{...}" />
+            <marker date="1512383602977" expanded="true" signature="20211:24387" placeholder="{&quot;paging&quot;: false...}" />
+            <marker date="1512383602977" expanded="true" signature="20465:21447" placeholder="[...]" />
+            <marker date="1512383602977" expanded="true" signature="20503:20878" placeholder="{...}" />
+            <marker date="1512383602977" expanded="true" signature="20564:20840" placeholder="{...}" />
+            <marker date="1512383602977" expanded="true" signature="20683:20768" placeholder="..." />
+            <marker date="1512383602977" expanded="true" signature="21100:21361" placeholder="{...}" />
+            <marker date="1512383602977" expanded="true" signature="21161:21323" placeholder="{...}" />
+            <marker date="1512383602977" expanded="true" signature="21494:22352" placeholder="{&quot;sLengthMenu&quot;: &quot;每页显示 _MENU_ 条记录&quot;...}" />
+            <marker date="1512383602977" expanded="true" signature="21879:22144" placeholder="{&quot;sFirst&quot;: &quot;首页&quot;...}" />
+            <marker date="1512383602977" expanded="true" signature="22398:23412" placeholder="[...]" />
+            <marker date="1512383602977" expanded="true" signature="22399:22847" placeholder="{&quot;targets&quot;: 5...}" />
+            <marker date="1512383602977" expanded="true" signature="22508:22813" placeholder="{...}" />
+            <marker date="1512383602977" expanded="true" signature="23446:23527" placeholder="//..." />
+            <marker date="1512383602977" expanded="true" signature="23596:24356" placeholder="{...}" />
+            <marker date="1512383602977" expanded="true" signature="23898:24320" placeholder="{...}" />
+            <marker date="1512383602977" expanded="true" signature="23960:24282" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="228" column="31" selection-start-line="228" selection-start-column="31" selection-end-line="228" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

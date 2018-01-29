@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]><!-->
+<html>
+<!--<![endif]-->
+<!-- BEGIN HEAD -->
+
+<head>
+    <meta charset="utf-8" />
+    <title>美丽中国-选课系统</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="" name="author" />
+    <link href="assets/global/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="assets/global/css/components.min.css" rel="stylesheet" id="style_components" type="text/css" />
+    <link href="assets/pages/css/login.css" rel="stylesheet" type="text/css" />
+    <link href="assets/pages/css/style.css" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" href="favicon.ico" /> </head>
+<script src="assets/global/plugins/jquery.min.js" type="text/javascript"></script>
+<script src="js/common.js" type="text/javascript"></script>
+<script src="js/jquery.cookie.js" type="text/javascript"></script>
+
+<body class=" login">
+    <div class="logo"></div>
+    <div class="content">
+        <h3 class="form-title font-blue" style="margin-top:24px; margin-bottom:34px;">
+            <a href="CourseList.html">
+                <img src="assets/pages/img/logo.png" alt="" />
+            </a>
+        </h3>
+        <div class="alert alert-danger display-hide" id="message" onclick="closemessage()">
+            <button class="close" data-close="alert" id="closeit"></button>
+            <span> 请键入正确用户名登录&nbsp;</span>
+        </div>
+        <div class="form-group">
+            <label class="control-label visible-ie8 visible-ie9">用户名</label>
+            <input class="form-control form-control-solid placeholder-no-fix" type="text" autocomplete="off" placeholder="请键入您的用户名登录" name="username" style="text-align:left;" id="account" /> </div>
+        <div class="form-actions row">
+            <div class="col-md-12">
+                <button type="submit" class="btn blue uppercase pull-right" id="userlogin">登录</button>
+            </div>
+        </div>
+        <div class="create-account">
+            <p>版权所有 © 北京立德未来助学公益基金会 </p>
+        </div>
+    </div>
+    <div class="copyright"> </div>
+    <script src="assets/global/plugins/jquery-validation/js/jquery.validate.min.js" type="text/javascript"></script>
+    <script>
+        $(function() {
+
+            $('#account').focus();
+
+            function success(data) {
+                $.cookie('UserId', data.Result.UserId);
+                CallApi('v1/user/' + $.cookie('UserId'), 'Get', '', getUserInfo, error);
+            }
+
+            function getUserInfo(response) {
+                if (response.Result.IsAdmin === true) {
+                    //tiao
+                    window.location.href = '/CourseList.html';
+                } else {
+                    CallApi('v1/check/' + response.Result.UserID, 'Get', '', checksuccess, error);
+                }
+            }
+
+            function checksuccess(data) {
+                if (data.Result === 0) {
+                    window.location.href = '/Course.html';
+                } else {
+                    window.location.href = '/CourseList.html';
+                }
+            }
+
+            function error(data) {
+                if (data.Status == 0) {
+                    $("#message").text(data.message).removeClass("display-hide").show('#message');
+                }
+            }
+            $("#userlogin").on('click', function() {
+                CallApi('v1/user', 'post', {
+                    account: $("#account").val()
+                }, success, error);
+            });
+            document.onkeydown = function(e) {
+                var keycode = document.all ? event.keyCode : e.which;
+                if (keycode == 13) {
+                    CallApi('v1/user', 'post', {
+                        account: $("#account").val()
+                    }, success, error);
+                }
+            }
+
+        });
+
+        function closemessage() {
+            $('#message').hide();
+        }
+    </script>
+</body>
+
+</html>
