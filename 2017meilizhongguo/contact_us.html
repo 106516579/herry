@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <title>美丽中国</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/content.css" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/style.js"></script>
+    <script src="js/jquery.share.min.js"></script>
+    <!--引用百度地图API-->
+    <style type="text/css">
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .iw_poi_title {
+            color: #CC5522;
+            font-size: 14px;
+            font-weight: bold;
+            overflow: hidden;
+            padding-right: 13px;
+            white-space: nowrap
+        }
+        
+        .iw_poi_content {
+            font: 12px arial, sans-serif;
+            overflow: visible;
+            padding-top: 4px;
+            white-space: -moz-pre-wrap;
+            word-wrap: break-word
+        }
+    </style>
+    <script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="inner h-inner">
+            <div class="top-center">
+                <div class="logo"><img src="images/logo_03.png" /></div>
+                <div class="back"><img src="images/back_03.jpg" alt="" /></div>
+                <div class="mianbao" id="mianbao"><img src="images/mian_03.png" /></div>
+                <div class="header-t">
+                    <span></span>
+                    <em>让所有中国孩子，无论出身，都能获得同等的优质教育</em>
+                </div>
+            </div>
+            <div class="local">热点新闻</div>
+            <div class="bot-center">
+                <div class="button">
+                    <a href="##">我要支教</a>
+                    <a href="##">我要捐赠</a>
+                </div>
+                <div class="rm-container">
+                    <nav class="rm-nav rm-nojs rm-lighten">
+                        <ul>
+                            <li id="home"><i><a href="#">首页</a></i></li>
+                            <li><i>关于我们</i>
+                                <ul>
+                                    <div class="h-border">
+                                        <div class="h-inner">
+                                            <li>
+                                                <a href="#">
+                                                    <div class="g-icon"></div>
+                                                    <em>愿景和模式</em>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <div class="g-icon"></div>
+                                                    <em>项目大记事</em>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <div class="g-icon"></div>
+                                                    <em>合作伙伴</em>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <div class="g-icon"></div>
+                                                    <em>联系我们</em>
+                                                </a>
+                                            </li>
+                                        </div>
+                                    </div>
+                                </ul>
+                            </li>
+                            <li><i>我要参与</i>
+                                <ul>
+                                    <div class="h-border">
+                                        <div class="h-inner">
+                                            <li>
+                                                <a href="#">
+                                                    <div class="g-icon"></div>
+                                                    <em>成为捐赠方</em>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <div class="g-icon"></div>
+                                                    <em>成为项目老师</em>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <div class="g-icon"></div>
+                                                    <em>成为校园大使</em>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <div class="g-icon"></div>
+                                                    <em>招聘信息</em>
+                                                </a>
+                                            </li>
+                                        </div>
+                                    </div>
+                                </ul>
+                            </li>
+                            <li><i>支教体验</i>
+                                <ul>
+                                    <div class="h-border">
+                                        <div class="h-inner">
+                                            <li>
+                                                <a href="#">
+                                                    <div class="g-icon"></div>
+                                                    <em>支教地区</em>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <div class="g-icon"></div>
+                                                    <em>支教故事</em>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <div class="g-icon"></div>
+                                                    <em>公益片</em>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <div class="g-icon"></div>
+                                                    <em>图片集</em>
+                                                </a>
+                                            </li>
+                                        </div>
+                                    </div>
+                                </ul>
+                            </li>
+                            <li><i>资讯动态</i>
+                                <ul>
+                                    <div class="h-border">
+                                        <div class="h-inner">
+                                            <li>
+                                                <a href="#">
+                                                    <div class="g-icon"></div>
+                                                    <em>新闻热点</em>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <div class="g-icon"></div>
+                                                    <em>媒体报道</em>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <div class="g-icon"></div>
+                                                    <em>市场活动</em>
+                                                </a>
+                                            </li>
+                                        </div>
+                                    </div>
+                                </ul>
+                            </li>
+                            <li><i>长期影响力</i>
+                                <ul>
+                                    <div class="h-border">
+                                        <div class="h-inner">
+                                            <li>
+                                                <a href="#">
+                                                    <div class="g-icon"></div>
+                                                    <em>长期影响力</em>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <div class="g-icon"></div>
+                                                    <em>校友关系</em>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <div class="g-icon"></div>
+                                                    <em>前程规划</em>
+                                                </a>
+                                            </li>
+                                        </div>
+                                    </div>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="banner_box2">
+        <div class="clear vision_ad mar0">
+            <span>联系我们</span> 美丽中国的愿景和最终奋斗目标是
+            <p>让所有中国孩子，<br>无论出身都能获得同等的优质教育
+            </p>
+            <cite><img src="images/banner_line.jpg"></cite>
+        </div>
+    </div>
+    <div class="vision-box">
+        <p class="vision-page-top"><img src="images/botton_top.png"></p>
+        <div class="vision_mix5 mar0">
+            <div class="vision_mix5_1">
+                <img src="images/img_douhao.jpg">
+            </div>
+            <div class="vision_mix5_2"> <span>联系我们</span>　　美丽中国支教项目成立于2008年，是北京立德未来助学公益基金会下设的教育非营利项目。 美丽中国是支教项目，但不只是支教项目。项目通过“两年轮换制”，输送多批项目老师进行两年长期服务，实现一岗多人，为教育资源匮乏地区提供持续稳定的师资力量；同时，两年项目体验，加以专业的培训支持，让项目老师经历扎实的基层教学实践，使提供优质教育、促进青年成长成为可能，为中国教育资源的均衡化发展积累大批未来人才。
+                <br>　　9年来，美丽中国已累计为教育资源匮乏地区输送了超过1000位项目开始鼓，他们分布在云南省、广东省、甘肃省、广西壮族自治区的220多所中小学的课堂上，影响着超过330,000学生人次，累计教授超过1,140,000节课。
+                <br>　　我们持续不断地努力，希望在不久的将来：<br>　　让所有中国孩子，无论出身，都能获得同等的优质教育。
+                <br>
+            </div>
+            <div class="vision_mix5_3">
+                <img src="images/img_contus.jpg">
+            </div>
+        </div>
+        <h1 class="mar0 clear">联系我们</h1>
+        <p class="mar0 h1_bline">
+        </p>
+
+        <div class="mode mar0 clear">
+            <ul>
+                <li><img src="images/img_tel.png"><span>电话</span>400-082-2008</li>
+                <li><img src="images/img_mail.png"><span>邮箱</span>info@leadfuturefoundation.org </li>
+                <li><img src="images/img_conset.png"><span>邮编</span>100020 </li>
+                <li><img src="images/img_addr.png"><span>地址</span>北京市朝阳区建国门外大街光华东里8号中海广场1008 </li>
+            </ul>
+        </div>
+        <div class="apply mar0 clear">
+            <ul>
+                <li>支教申请：<span>recruiting@tfchina.org</span></li>
+                <li>捐赠支助：<span>donate@tfchina.org</span></li>
+                <li>加入我们：<span>careers@tfchina.org</span></li>
+                <li>媒体报道：<span>media@tfchina.org</span></li>
+            </ul>
+        </div>
+        <div class="apply_map mar0">
+            <!--百度地图容器-->
+            <div style="width:100%; border:#ccc solid 1px;" id="dituContent" class="apply_map_h"></div>
+        </div>
+
+
+
+    </div>
+    </div>
+
+
+    <div class="footer">
+        <div class="inner">
+            <div class="f-bot clearfix">
+                <dl>
+                    <dd>联系我们</dd>
+                    <dt><a href="javascript:;">支教申请：recruiting@tfchina.org </a></dt>
+                    <dt><a href="javascript:;">捐赠支助：donate@tfchina.org</a></dt>
+                    <dt><a href="javascript:;">联系电话：400-082-2008</a></dt>
+                </dl>
+                <dl class="combine">
+                    <dd style="visibility: hidden;"></dd>
+                    <dt><a href="javascript:;">加入我们：careers@tfchina.org </a></dt>
+                    <dt><a href="javascript:;">媒体报道：media@tfchina.org</a></dt>
+                </dl>
+                <dl class="resource">
+                    <dd>资料公开</dd>
+                    <dt><a href="##">资料下载 </a></dt>
+                    <dt><a href="##">月报</a></dt>
+                </dl>
+                <dl class="fouces">
+                    <dd>关注我们</dd>
+                    <dt><a href="javascript:;"></a></dt>
+                    <dt><a href="##"></a></dt>
+                    <dt><a href="##"></a></dt>
+                    <img src="images/wechat_03.png" id="wechat">
+                </dl>
+                <dl class="language">
+                    <dd>语言选择</dd>
+                    <dt>中文 <br />
+							<p>
+								<!--<a href="##">中文</a><br />-->
+								<a href="##">English</a>
+							</p>							
+						</dt>
+                </dl>
+            </div>
+            <div class="f-top clearfix">
+                <dl>
+                    <dd>关于我们</dd>
+                    <dt><a href="##">愿景和模式 </a></dt>
+                    <dt><a href="##">项目大事记</a></dt>
+                    <dt><a href="##">合作伙伴</a></dt>
+                    <dt><a href="##">联系我们</a></dt>
+                </dl>
+                <dl>
+                    <dd>我要参与</dd>
+                    <dt><a href="##">成为捐赠方 </a></dt>
+                    <dt><a href="##">成为项目老师</a></dt>
+                    <dt><a href="##">成为校园大使</a></dt>
+                    <dt><a href="##">招聘信息</a></dt>
+                </dl>
+                <dl>
+                    <dd>支教体验</dd>
+                    <dt><a href="##">支教故事 </a></dt>
+                    <dt><a href="##">公益片</a></dt>
+                    <dt><a href="##">图片集</a></dt>
+                </dl>
+                <dl>
+                    <dd>动态资讯</dd>
+                    <dt><a href="##">新闻热点 </a></dt>
+                    <dt><a href="##">媒体报道</a></dt>
+                    <dt><a href="##">市场活动</a></dt>
+                </dl>
+                <dl class="effect">
+                    <dd>长期影响力</dd>
+                    <dt><a href="##">项目影响力</a></dt>
+
+                </dl>
+            </div>
+            <div class="footer-link">
+                <a href="##">北京立德未来助学公益基金会</a>
+                <a href="##">美丽小学</a>
+                <a href="##">美丽在线课堂</a>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        //创建和初始化地图函数：
+        function initMap() {
+            createMap(); //创建地图
+            setMapEvent(); //设置地图事件
+            addMapControl(); //向地图添加控件
+            addMarker(); //向地图中添加marker
+        }
+
+        //创建地图函数：
+        function createMap() {
+            var map = new BMap.Map("dituContent"); //在百度地图容器中创建一个地图
+            var point = new BMap.Point(116.463091, 39.916578); //定义一个中心点坐标
+            map.centerAndZoom(point, 17); //设定地图的中心点和坐标并将地图显示在地图容器中
+            window.map = map; //将map变量存储在全局
+        }
+
+        //地图事件设置函数：
+        function setMapEvent() {
+            map.enableDragging(); //启用地图拖拽事件，默认启用(可不写)
+            map.enableScrollWheelZoom(); //启用地图滚轮放大缩小
+            map.enableDoubleClickZoom(); //启用鼠标双击放大，默认启用(可不写)
+            map.enableKeyboard(); //启用键盘上下左右键移动地图
+        }
+
+        //地图控件添加函数：
+        function addMapControl() {
+            //向地图中添加比例尺控件
+            var ctrl_sca = new BMap.ScaleControl({
+                anchor: BMAP_ANCHOR_BOTTOM_LEFT
+            });
+            map.addControl(ctrl_sca);
+        }
+
+        //标注点数组
+        var markerArr = [{
+            title: "中海广场",
+            content: "美丽中国",
+            point: "116.463136|39.916495",
+            isOpen: 0,
+            icon: {
+                w: 21,
+                h: 21,
+                l: 0,
+                t: 0,
+                x: 6,
+                lb: 5
+            }
+        }];
+        //创建marker
+        function addMarker() {
+            for (var i = 0; i < markerArr.length; i++) {
+                var json = markerArr[i];
+                var p0 = json.point.split("|")[0];
+                var p1 = json.point.split("|")[1];
+                var point = new BMap.Point(p0, p1);
+                var iconImg = createIcon(json.icon);
+                var marker = new BMap.Marker(point, {
+                    icon: iconImg
+                });
+                var iw = createInfoWindow(i);
+                var label = new BMap.Label(json.title, {
+                    "offset": new BMap.Size(json.icon.lb - json.icon.x + 10, -20)
+                });
+                marker.setLabel(label);
+                map.addOverlay(marker);
+                label.setStyle({
+                    borderColor: "#808080",
+                    color: "#333",
+                    cursor: "pointer"
+                });
+
+                (function() {
+                    var index = i;
+                    var _iw = createInfoWindow(i);
+                    var _marker = marker;
+                    _marker.addEventListener("click", function() {
+                        this.openInfoWindow(_iw);
+                    });
+                    _iw.addEventListener("open", function() {
+                        _marker.getLabel().hide();
+                    })
+                    _iw.addEventListener("close", function() {
+                        _marker.getLabel().show();
+                    })
+                    label.addEventListener("click", function() {
+                        _marker.openInfoWindow(_iw);
+                    })
+                    if (!!json.isOpen) {
+                        label.hide();
+                        _marker.openInfoWindow(_iw);
+                    }
+                })()
+            }
+        }
+        //创建InfoWindow
+        function createInfoWindow(i) {
+            var json = markerArr[i];
+            var iw = new BMap.InfoWindow("<b class='iw_poi_title' title='" + json.title + "'>" + json.title + "</b><div class='iw_poi_content'>" + json.content + "</div>");
+            return iw;
+        }
+        //创建一个Icon
+        function createIcon(json) {
+            var icon = new BMap.Icon("http://app.baidu.com/map/images/us_mk_icon.png", new BMap.Size(json.w, json.h), {
+                imageOffset: new BMap.Size(-json.l, -json.t),
+                infoWindowOffset: new BMap.Size(json.lb + 5, 1),
+                offset: new BMap.Size(json.x, json.h)
+            })
+            return icon;
+        }
+
+        initMap(); //创建和初始化地图
+    </script>
+</body>
+
+</html>
